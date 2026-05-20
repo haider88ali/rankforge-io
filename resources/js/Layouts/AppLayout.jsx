@@ -55,7 +55,7 @@ export default function AppLayout({ children }) {
         <div className="min-h-screen flex flex-col bg-white">
             {/* ── Announcement bar ── */}
             <div className="bg-indigo-600 text-white text-xs font-medium text-center py-2 px-4">
-                ⚡ RankForge — 10 free SEO & developer tools, no AI costs, no account required.&nbsp;
+                ⚡ SeoKitHub — 10 free SEO & developer tools, no AI costs, no account required.&nbsp;
                 <Link href="/" className="underline underline-offset-2 hover:no-underline">Explore all tools →</Link>
             </div>
 
@@ -70,7 +70,7 @@ export default function AppLayout({ children }) {
                                 <Zap className="w-4 h-4 text-white" strokeWidth={2.5} />
                             </div>
                             <span className="font-bold text-gray-900 text-[17px] tracking-tight">
-                                Rank<span className="text-indigo-600">Forge</span>
+                                SeoKit<span className="text-indigo-600">Hub</span>
                             </span>
                         </Link>
 
@@ -115,7 +115,7 @@ export default function AppLayout({ children }) {
                                         </div>
                                         {/* Footer */}
                                         <div className="bg-gray-50 border-t border-gray-100 px-5 py-3 flex items-center justify-between">
-                                            <span className="text-xs text-gray-400">RankForge — 10 free tools, no signup required</span>
+                                            <span className="text-xs text-gray-400">SeoKitHub — 10 free tools, no signup required</span>
                                             <Link href="/" className="text-xs font-semibold text-indigo-600 flex items-center gap-1 hover:underline">
                                                 View all <ArrowRight className="w-3 h-3" />
                                             </Link>
@@ -211,10 +211,10 @@ export default function AppLayout({ children }) {
                                 <div className="w-9 h-9 bg-indigo-600 rounded-xl flex items-center justify-center">
                                     <Zap className="w-4 h-4 text-white" strokeWidth={2.5} />
                                 </div>
-                                <span className="font-bold text-white text-xl tracking-tight">Rank<span className="text-indigo-400">Forge</span></span>
+                                <span className="font-bold text-white text-xl tracking-tight">SeoKit<span className="text-indigo-400">Hub</span></span>
                             </Link>
                             <p className="text-sm text-gray-500 leading-relaxed max-w-xs">
-                                RankForge gives you 10 free SEO & developer tools. No AI costs, no account, no limits. Everything runs in your browser.
+                                SeoKitHub gives you 10 free SEO & developer tools. No AI costs, no account, no limits. Everything runs in your browser.
                             </p>
                             <div className="flex items-center gap-2 mt-5">
                                 <span className="text-xs bg-indigo-900/60 text-indigo-300 font-medium px-2.5 py-1 rounded-full">100% Free</span>
@@ -256,7 +256,7 @@ export default function AppLayout({ children }) {
                     </div>
 
                     <div className="border-t border-gray-800 pt-7 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-600">
-                        <p>© 2026 RankForge — All rights reserved.</p>
+                        <p>© 2026 SeoKitHub — All rights reserved.</p>
                         <p>Built for marketers, writers & developers.</p>
                     </div>
                 </div>

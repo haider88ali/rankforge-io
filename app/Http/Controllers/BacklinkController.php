@@ -70,7 +70,7 @@ class BacklinkController extends Controller
         $title       = '';
         try {
             $home = Http::timeout(8)
-                ->withHeaders(['User-Agent' => 'RankForge/1.0'])
+                ->withHeaders(['User-Agent' => 'SeoKitHub/1.0'])
                 ->get("https://{$domain}");
             if ($home->ok()) {
                 $isHttps = true;

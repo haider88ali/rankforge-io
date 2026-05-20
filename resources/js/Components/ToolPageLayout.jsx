@@ -2,7 +2,7 @@ import { Link, usePage } from '@inertiajs/react';
 import { ChevronRight, ArrowRight } from 'lucide-react';
 import JsonLd from '@/Components/JsonLd';
 
-const BASE_URL = 'https://rankforge.io';
+const BASE_URL = 'https://seokithub.com';
 
 function buildSchemas({ title, description, breadcrumb, faqs, url }) {
     const pageUrl = `${BASE_URL}${url}`;
@@ -17,7 +17,7 @@ function buildSchemas({ title, description, breadcrumb, faqs, url }) {
         url: pageUrl,
         publisher: {
             '@type': 'Organization',
-            name: 'RankForge',
+            name: 'SeoKitHub',
             url: BASE_URL,
             logo: {
                 '@type': 'ImageObject',
@@ -50,7 +50,7 @@ function buildSchemas({ title, description, breadcrumb, faqs, url }) {
         description: description,
         publisher: {
             '@type': 'Organization',
-            name: 'RankForge',
+            name: 'SeoKitHub',
             url: BASE_URL,
         },
     });
@@ -173,7 +173,7 @@ export default function ToolPageLayout({
                 <section className="bg-gray-50 border-t border-gray-100 py-16 px-4">
                     <div className="max-w-5xl mx-auto">
                         <h2 className="text-2xl font-bold text-gray-900 mb-2">Related Free SEO Tools</h2>
-                        <p className="text-gray-500 mb-8 text-sm">More tools from RankForge to help you rank higher.</p>
+                        <p className="text-gray-500 mb-8 text-sm">More tools from SeoKitHub to help you rank higher.</p>
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                             {relatedTools.map(tool => (
                                 <Link key={tool.href} href={tool.href}

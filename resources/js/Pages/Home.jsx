@@ -122,9 +122,9 @@ export default function Home() {
     return (
         <AppLayout>
             <Head>
-                <title>RankForge — 10 Free SEO Tools. No Sign-up, No Limits.</title>
-                <meta name="description" content="RankForge gives you 10 free SEO tools: AI meta description generator, schema markup generator, robots.txt builder, XML sitemap, SERP preview tool and more. No sign-up required." />
-                <meta name="keywords" content="rankforge, free seo tools, free seo toolkit, seo tools for marketers, seo tools no login, free online seo tools 2026, website seo audit tool, schema markup generator, robots txt generator, xml sitemap generator, serp preview tool, keyword density checker, json formatter, image compressor, url slug generator, backlink checker free, seo tools for small business, seo tools for bloggers" />
+                <title>SeoKitHub — 10 Free SEO Tools. No Sign-up, No Limits.</title>
+                <meta name="description" content="SeoKitHub gives you 10 free SEO tools: website audit, schema markup generator, robots.txt builder, XML sitemap, SERP preview, keyword checker and more. No sign-up required." />
+                <meta name="keywords" content="seokithub, free seo tools, free seo toolkit, seo tools for marketers, seo tools no login, free online seo tools 2026, website seo audit tool, schema markup generator, robots txt generator, xml sitemap generator, serp preview tool, keyword density checker, json formatter, image compressor, url slug generator, backlink checker free, seo tools for small business, seo tools for bloggers" />
             </Head>
 
             {/* Hero */}
@@ -134,7 +134,7 @@ export default function Home() {
                         <Star className="w-3.5 h-3.5" /> 10 Free SEO & Developer Tools
                     </div>
                     <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight mb-6">
-                        <span className="text-indigo-600">RankForge</span> — The Free<br />SEO Toolkit for Marketers
+                        <span className="text-indigo-600">SeoKitHub</span> — The Free<br />SEO Toolkit for Marketers
                     </h1>
                     <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
                         Audit your site, check backlinks, generate schema markup, sitemaps, robots.txt and more — 100% free, no AI costs, no login, no limits. All tools run directly in your browser.
@@ -202,7 +202,7 @@ export default function Home() {
             <section className="bg-gray-50 border-y border-gray-200 py-20 px-4">
                 <div className="max-w-5xl mx-auto">
                     <div className="text-center mb-12">
-                    <h2 className="text-3xl font-bold text-gray-900 mb-3">Why Use RankForge?</h2>
+                    <h2 className="text-3xl font-bold text-gray-900 mb-3">Why Use SeoKitHub?</h2>
                     <p className="text-gray-500 text-lg">Simple, fast, and 100% free — no account needed.</p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

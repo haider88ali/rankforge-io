@@ -1,9 +1,9 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "seokithub/seokithub",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "SeoKitHub — free SEO toolkit with 10 browser-based and server-side SEO tools.",
+    "keywords": ["laravel", "seo", "seokithub", "seo-tools"],
     "license": "MIT",
     "require": {
         "php": "^8.3",

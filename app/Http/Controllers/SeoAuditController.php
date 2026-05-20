@@ -23,7 +23,7 @@ class SeoAuditController extends Controller
 
         try {
             $response = Http::timeout(15)
-                ->withHeaders(['User-Agent' => 'RankForge-SEO-Audit/1.0 (+https://rankforge.io)'])
+                ->withHeaders(['User-Agent' => 'SeoKitHub-SEO-Audit/1.0 (+https://seokithub.com)'])
                 ->get($url);
         } catch (\Exception $e) {
             return response()->json(['error' => 'Could not reach the URL. Check it is publicly accessible.'], 422);

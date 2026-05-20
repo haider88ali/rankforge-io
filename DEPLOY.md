@@ -1,4 +1,4 @@
-# RankForge — Deployment Guide
+# SeoKitHub — Deployment Guide
 
 ## Recommended Hosting Platforms
 
@@ -17,7 +17,7 @@
 ### 1. Environment File
 Copy `.env.production.example` → `.env` on the server and fill in:
 - [ ] `APP_KEY` — run `php artisan key:generate`
-- [ ] `APP_URL` — set to `https://rankforge.io`
+- [ ] `APP_URL` — set to `https://seokithub.com`
 - [ ] `APP_DEBUG=false`
 - [ ] `APP_ENV=production`
 
@@ -58,7 +58,7 @@ location / {
 2. Go to railway.app → New Project → Deploy from GitHub repo
 3. Add environment variables from `.env.production.example`
 4. Railway auto-detects PHP/Laravel and deploys
-5. Add custom domain `rankforge.io` in Railway settings
+5. Add custom domain `seokithub.com` in Railway settings
 
 ---
 
@@ -74,7 +74,7 @@ location / {
 
 ## Post-Deploy SEO Steps
 
-1. **Submit sitemap** — Go to Google Search Console → Sitemaps → Submit `https://rankforge.io/sitemap.xml`
+1. **Submit sitemap** — Go to Google Search Console → Sitemaps → Submit `https://seokithub.com/sitemap.xml`
 2. **Request indexing** — In GSC, use URL Inspection to request indexing for each tool page
 3. **Verify rich results** — Test any tool page at https://search.google.com/test/rich-results
 4. **Set up Bing** — Submit to Bing Webmaster Tools too
@@ -95,6 +95,4 @@ location / {
 
 ## What You May Want to Add Later
 
-- [ ] OpenAI API key for real AI generation (AI tools currently use mock data)
 - [ ] Google Analytics / Plausible for traffic tracking
-- [ ] A sitemap route (`/sitemap.xml`) via Laravel

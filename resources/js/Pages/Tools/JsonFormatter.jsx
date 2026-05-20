@@ -6,7 +6,7 @@ import CopyButton from '@/Components/CopyButton';
 import { CheckCircle2, XCircle, Minimize2, Maximize2, Download } from 'lucide-react';
 
 const SAMPLE = `{
-  "name": "RankForge",
+  "name": "SeoKitHub",
   "version": "2.0",
   "tools": [
     { "id": 1, "name": "Meta Description Generator", "ai": true },

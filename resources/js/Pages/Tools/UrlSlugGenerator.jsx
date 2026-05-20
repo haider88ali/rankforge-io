@@ -48,7 +48,7 @@ const EXAMPLES = [
 
 export default function UrlSlugGeneratorPage() {
     const [input, setInput] = useState('');
-    const [baseUrl, setBaseUrl] = useState('https://rankforge.io/blog/');
+    const [baseUrl, setBaseUrl] = useState('https://seokithub.com/blog/');
     const [separator, setSeparator] = useState('-');
     const [removeStopWords, setRemoveStopWords] = useState(false);
     const [maxLength, setMaxLength] = useState(60);
