@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="favicon-title">
+  <title id="favicon-title">SeoKitHub</title>
+  <rect width="32" height="32" rx="8" fill="#4f46e5"/>
+  <path
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="2.4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M18.5 5 10.5 16.5H17l-1.2 10.5L22.5 15H16l2.5-10z"
+  />
+</svg>
