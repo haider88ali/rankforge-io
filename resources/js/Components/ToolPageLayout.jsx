@@ -18,7 +18,7 @@ function buildSchemas({ title, description, breadcrumb, faqs, url }) {
         publisher: {
             '@type': 'Organization',
             name: SITE_NAME,
-            alternateName: 'SEO Kit Hub',
+            alternateName: ['SEO Kit Hub', 'Seo Kit Hub', 'SEO Kit', 'Seo Kit'],
             url: BASE_URL,
             logo: {
                 '@type': 'ImageObject',
@@ -52,7 +52,7 @@ function buildSchemas({ title, description, breadcrumb, faqs, url }) {
         publisher: {
             '@type': 'Organization',
             name: SITE_NAME,
-            alternateName: 'SEO Kit Hub',
+            alternateName: ['SEO Kit Hub', 'Seo Kit Hub', 'SEO Kit', 'Seo Kit'],
             url: BASE_URL,
         },
     });

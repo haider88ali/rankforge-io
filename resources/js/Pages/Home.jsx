@@ -127,7 +127,7 @@ export default function Home() {
             '@context': 'https://schema.org',
             '@type': 'Organization',
             name: SITE_NAME,
-            alternateName: ['SEO Kit Hub', 'Seo Kit Hub', 'seokithub'],
+            alternateName: ['SEO Kit Hub', 'Seo Kit Hub', 'SEO Kit', 'Seo Kit', 'seokithub'],
             url: BASE_URL,
             logo: `${BASE_URL}/favicon.svg`,
             description: 'SeoKitHub (SEO Kit Hub) is a free online toolkit with 10 SEO and developer tools — audit, schema, sitemap, robots.txt, and more.',
@@ -136,7 +136,7 @@ export default function Home() {
             '@context': 'https://schema.org',
             '@type': 'WebSite',
             name: SITE_NAME,
-            alternateName: ['SEO Kit Hub', 'Seo Kit Hub'],
+            alternateName: ['SEO Kit Hub', 'Seo Kit Hub', 'SEO Kit', 'Seo Kit'],
             url: BASE_URL,
             description: 'Free SEO tools hub — website audit, schema markup, sitemap generator, SERP preview, and more. No login required.',
             publisher: {
@@ -159,8 +159,8 @@ export default function Home() {
         <AppLayout>
             <SeoHead
                 title="SeoKitHub (SEO Kit Hub) — 10 Free SEO Tools. No Sign-up, No Limits."
-                description="SeoKitHub — your free SEO Kit Hub with 10 tools: website SEO audit, schema markup generator, robots.txt builder, XML sitemap, SERP preview, keyword checker, backlink checker, URL slug generator, JSON formatter, and image compressor. 100% free, no login."
-                keywords="seokithub, seo kit hub, seo kit hub free tools, seokit hub, free seo tools, free seo toolkit, seo tools online, seo tools for marketers, seo tools no login, website seo audit tool, schema markup generator, robots txt generator, xml sitemap generator"
+                description="SeoKitHub — your free SEO tool and SEO tools hub with 10 tools: website SEO audit, schema markup generator, robots.txt builder, XML sitemap, SERP preview, keyword checker, backlink checker, URL slug generator, JSON formatter, and image compressor. 100% free, no login."
+                keywords="seo tool, seo tools, free seo tool, free seo tools, seo tools online, online seo tools, seo kit, free seo kit, seo kit tools, seo kit online, seo, free seo, seo online, seokithub, seo kit hub, seo kit hub free tools, seokit hub, seo tools for marketers, seo tools no login, website seo audit tool, schema markup generator, robots txt generator, xml sitemap generator"
             />
             <JsonLd schemas={homeSchemas} />
 
