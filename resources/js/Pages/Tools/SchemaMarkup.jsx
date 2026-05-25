@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -51,13 +50,10 @@ export default function SchemaMarkupPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free Schema Markup Generator — JSON-LD Structured Data Tool</title>
-                <meta name="description" content="Generate valid JSON-LD schema markup for FAQ, Product, Article, and Organization. Copy or download your structured data and get rich results in Google. Free tool." />
-                <meta name="keywords" content="schema markup generator, json-ld generator, structured data generator, faq schema generator, product schema markup, article schema, organization schema, json ld schema creator, rich results generator, schema.org generator free, structured data tool, how to add schema markup, schema markup tool online, google rich snippets generator, seo structured data" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free Schema Markup Generator — JSON-LD Structured Data Tool"
+                seoDescription="Generate valid JSON-LD schema markup on SeoKitHub (SEO Kit Hub). Create FAQ, Product, Article, and Organization schema for Google rich results. Free, instant, no login."
+                seoKeywords="schema markup generator, json-ld generator, structured data generator, faq schema generator, product schema markup, article schema, organization schema, json ld schema creator, rich results generator, schema.org generator free, structured data tool, how to add schema markup, schema markup tool online, google rich snippets generator, seo structured data"
                 title="Free Schema Markup Generator"
                 description="Generate valid JSON-LD structured data for your website. Supports FAQ, Product, Article, and Organization schemas — copy the code and paste it into your HTML to unlock rich results in Google."
                 breadcrumb="Schema Markup Generator"

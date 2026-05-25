@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -82,13 +81,10 @@ export default function SeoAuditPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free Website SEO Audit Tool — Full On-Page SEO Analysis</title>
-                <meta name="description" content="Run a free full SEO audit on any website. Check title tags, meta descriptions, H1 headings, schema markup, robots.txt, SSL, Open Graph tags and 17 more SEO factors instantly." />
-                <meta name="keywords" content="website seo audit tool, free seo checker, seo analysis tool, on page seo audit, seo score checker free, full seo audit, technical seo audit tool, free website audit, check seo of website, seo audit report free, on page seo checker, page seo score, free seo report generator, seo checker tool online, website health check seo" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free Website SEO Audit Tool — Full On-Page SEO Analysis"
+                seoDescription="Run a free full SEO audit on any website with SeoKitHub (SEO Kit Hub). Check title tags, meta descriptions, H1 headings, schema markup, robots.txt, SSL, Open Graph and 17 more factors instantly."
+                seoKeywords="website seo audit tool, free seo checker, seo analysis tool, on page seo audit, seo score checker free, full seo audit, technical seo audit tool, free website audit, check seo of website, seo audit report free, on page seo checker, page seo score, free seo report generator, seo checker tool online, website health check seo"
                 title="Free Website SEO Audit Tool"
                 description="Enter any URL to get a full on-page SEO analysis — title tags, meta descriptions, headings, schema markup, Open Graph, robots.txt, SSL, performance and more. 100% free, no login."
                 breadcrumb="SEO Audit Tool"

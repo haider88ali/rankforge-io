@@ -1,5 +1,8 @@
-import { Head, Link } from '@inertiajs/react';
+import { Link } from '@inertiajs/react';
 import AppLayout from '@/Layouts/AppLayout';
+import SeoHead from '@/Components/SeoHead';
+import JsonLd from '@/Components/JsonLd';
+import { BASE_URL, SITE_NAME } from '@/config/seo';
 import {
     Code2, Bot, Globe, AlignLeft,
     Eye, Braces, Image, ArrowRight, Zap,
@@ -107,7 +110,7 @@ const colorMap = {
 
 const stats = [
     { value: '10+', label: 'Free Tools' },
-    { value: '3', label: 'AI-Powered' },
+    { value: '100%', label: 'Free Forever' },
     { value: '100%', label: 'Browser-based' },
     { value: '0', label: 'Sign-up needed' },
 ];
@@ -119,13 +122,47 @@ const features = [
 ];
 
 export default function Home() {
+    const homeSchemas = [
+        {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: SITE_NAME,
+            alternateName: ['SEO Kit Hub', 'Seo Kit Hub', 'seokithub'],
+            url: BASE_URL,
+            logo: `${BASE_URL}/favicon.svg`,
+            description: 'SeoKitHub (SEO Kit Hub) is a free online toolkit with 10 SEO and developer tools — audit, schema, sitemap, robots.txt, and more.',
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: SITE_NAME,
+            alternateName: ['SEO Kit Hub', 'Seo Kit Hub'],
+            url: BASE_URL,
+            description: 'Free SEO tools hub — website audit, schema markup, sitemap generator, SERP preview, and more. No login required.',
+            publisher: {
+                '@type': 'Organization',
+                name: SITE_NAME,
+                url: BASE_URL,
+            },
+        },
+        {
+            '@context': 'https://schema.org',
+            '@type': 'WebPage',
+            name: 'SeoKitHub — Free SEO Kit Hub with 10 SEO Tools',
+            description: 'SeoKitHub (SEO Kit Hub) offers 10 free SEO tools for marketers, bloggers, and developers. No sign-up, no limits.',
+            url: BASE_URL,
+            isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: BASE_URL },
+        },
+    ];
+
     return (
         <AppLayout>
-            <Head>
-                <title>SeoKitHub — 10 Free SEO Tools. No Sign-up, No Limits.</title>
-                <meta name="description" content="SeoKitHub gives you 10 free SEO tools: website audit, schema markup generator, robots.txt builder, XML sitemap, SERP preview, keyword checker and more. No sign-up required." />
-                <meta name="keywords" content="seokithub, free seo tools, free seo toolkit, seo tools for marketers, seo tools no login, free online seo tools 2026, website seo audit tool, schema markup generator, robots txt generator, xml sitemap generator, serp preview tool, keyword density checker, json formatter, image compressor, url slug generator, backlink checker free, seo tools for small business, seo tools for bloggers" />
-            </Head>
+            <SeoHead
+                title="SeoKitHub (SEO Kit Hub) — 10 Free SEO Tools. No Sign-up, No Limits."
+                description="SeoKitHub — your free SEO Kit Hub with 10 tools: website SEO audit, schema markup generator, robots.txt builder, XML sitemap, SERP preview, keyword checker, backlink checker, URL slug generator, JSON formatter, and image compressor. 100% free, no login."
+                keywords="seokithub, seo kit hub, seo kit hub free tools, seokit hub, free seo tools, free seo toolkit, seo tools online, seo tools for marketers, seo tools no login, website seo audit tool, schema markup generator, robots txt generator, xml sitemap generator"
+            />
+            <JsonLd schemas={homeSchemas} />
 
             {/* Hero */}
             <section className="bg-gradient-to-b from-indigo-50 to-white pt-20 pb-24 px-4">
@@ -134,10 +171,10 @@ export default function Home() {
                         <Star className="w-3.5 h-3.5" /> 10 Free SEO & Developer Tools
                     </div>
                     <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-900 leading-tight tracking-tight mb-6">
-                        <span className="text-indigo-600">SeoKitHub</span> — The Free<br />SEO Toolkit for Marketers
+                        <span className="text-indigo-600">SeoKitHub</span> — Your Free<br />SEO Kit Hub for Marketers
                     </h1>
                     <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-10 leading-relaxed">
-                        Audit your site, check backlinks, generate schema markup, sitemaps, robots.txt and more — 100% free, no AI costs, no login, no limits. All tools run directly in your browser.
+                        SeoKitHub (SEO Kit Hub) gives you 10 free tools — audit your site, check backlinks, generate schema markup, sitemaps, robots.txt and more. 100% free, no login, no limits. All tools run in your browser.
                     </p>
                     <div className="flex flex-wrap justify-center gap-3">
                         <Link href="/seo-audit-tool"

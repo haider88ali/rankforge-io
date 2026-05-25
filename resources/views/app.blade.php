@@ -10,6 +10,7 @@
         <meta name="theme-color" content="#4f46e5">
         <meta name="application-name" content="{{ config('app.name', 'SeoKitHub') }}">
         <meta name="apple-mobile-web-app-title" content="{{ config('app.name', 'SeoKitHub') }}">
+        <meta name="google-site-verification" content="71f54e2e4dccff20" />
         @viteReactRefresh
         @vite(['resources/css/app.css', 'resources/js/app.jsx'])
         @inertiaHead

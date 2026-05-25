@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState, useMemo } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -37,13 +36,10 @@ export default function KeywordDensityPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free Keyword Density Checker — Analyze Keyword Frequency in Content</title>
-                <meta name="description" content="Check keyword density and frequency in your content for free. Get word count, keyword percentage, and NLP-based suggestions to optimize your text for SEO without over-stuffing." />
-                <meta name="keywords" content="keyword density checker, keyword frequency tool, check keyword density, seo keyword analyzer, keyword percentage calculator, keyword stuffing checker, keyword density tool free, check keyword density online, content keyword analyzer, keyword prominence checker, seo content analyzer, keyword count tool, text keyword extractor, find keyword frequency, word frequency counter" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free Keyword Density Checker — Analyze Keyword Frequency in Content"
+                seoDescription="Check keyword density and frequency free on SeoKitHub (SEO Kit Hub). Get word count, keyword percentage, and suggestions to optimize content without over-stuffing."
+                seoKeywords="keyword density checker, keyword frequency tool, check keyword density, seo keyword analyzer, keyword percentage calculator, keyword stuffing checker, keyword density tool free, check keyword density online, content keyword analyzer, keyword prominence checker, seo content analyzer, keyword count tool, text keyword extractor, find keyword frequency, word frequency counter"
                 title="Free Keyword Density Checker"
                 description="Paste your article or web page content to instantly analyze keyword frequency, density percentages, and word count. Get smart NLP-based suggestions to optimize your text for SEO."
                 breadcrumb="Keyword Density Checker"

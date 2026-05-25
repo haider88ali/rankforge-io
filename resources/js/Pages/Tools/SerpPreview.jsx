@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -75,13 +74,10 @@ export default function SerpPreviewPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free SERP Preview Tool — See How Your Page Looks in Google</title>
-                <meta name="description" content="Preview how your website looks in Google search results before publishing. Check title and description pixel widths for both desktop and mobile views. Free SERP simulator." />
-                <meta name="keywords" content="serp preview tool, google search preview, serp simulator, meta title preview, seo preview tool free, google snippet preview, search result preview tool, seo snippet generator, title tag preview, meta description preview, mobile serp preview, desktop serp preview, how will my page look in google, google result simulator, seo title length checker" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free SERP Preview Tool — See How Your Page Looks in Google"
+                seoDescription="Preview Google search results free on SeoKitHub (SEO Kit Hub). Check title and meta description pixel widths on desktop and mobile before you publish."
+                seoKeywords="serp preview tool, google search preview, serp simulator, meta title preview, seo preview tool free, google snippet preview, search result preview tool, seo snippet generator, title tag preview, meta description preview, mobile serp preview, desktop serp preview, how will my page look in google, google result simulator, seo title length checker"
                 title="Free SERP Preview Tool"
                 description="See exactly how your page title and meta description appear in Google search results — on both desktop and mobile. Check pixel widths to make sure nothing gets cut off."
                 breadcrumb="SERP Preview Tool"

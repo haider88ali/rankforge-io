@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -39,13 +38,10 @@ export default function RobotsTxtPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free Robots.txt Generator — Build Your robots.txt File Online</title>
-                <meta name="description" content="Generate a proper robots.txt file online for free. Add user-agent rules, disallow paths, allow rules, sitemap URLs, and crawl-delay. Copy or download instantly." />
-                <meta name="keywords" content="robots txt generator, robots.txt builder, create robots txt, robots txt file generator free, robots.txt creator online, how to create robots.txt, robots txt disallow, robots txt sitemap, robots txt allow, robots txt user agent, generate robots.txt file, robots txt tool, block google bot robots txt, robots txt best practices, crawl rules generator" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free Robots.txt Generator — Build Your robots.txt File Online"
+                seoDescription="Generate a proper robots.txt file free on SeoKitHub (SEO Kit Hub). Add user-agent rules, disallow paths, sitemap URLs, and crawl-delay. Copy or download instantly."
+                seoKeywords="robots txt generator, robots.txt builder, create robots txt, robots txt file generator free, robots.txt creator online, how to create robots.txt, robots txt disallow, robots txt sitemap, robots txt allow, robots txt user agent, generate robots.txt file, robots txt tool, block google bot robots txt, robots txt best practices, crawl rules generator"
                 title="Free Robots.txt Generator"
                 description="Create a properly formatted robots.txt file in seconds. Add user-agent rules, block specific paths, set crawl-delay, and include your sitemap URL — copy or download the file instantly."
                 breadcrumb="Robots.txt Generator"

@@ -1,78 +1,78 @@
 {
-  "_AppLayout-ZpQZTmIQ.js": {
-    "file": "assets/AppLayout-ZpQZTmIQ.js",
-    "name": "AppLayout",
+  "_CopyButton-HxopW6MK.js": {
+    "file": "assets/CopyButton-HxopW6MK.js",
+    "name": "CopyButton",
+    "imports": [
+      "resources/js/app.jsx",
+      "_JsonLd-1zVlCnrP.js"
+    ]
+  },
+  "_JsonLd-1zVlCnrP.js": {
+    "file": "assets/JsonLd-1zVlCnrP.js",
+    "name": "JsonLd",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_CopyButton-Bf7CX4u-.js": {
-    "file": "assets/CopyButton-Bf7CX4u-.js",
-    "name": "CopyButton",
-    "imports": [
-      "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js"
-    ]
-  },
-  "_ToolPageLayout-COvt3xec.js": {
-    "file": "assets/ToolPageLayout-COvt3xec.js",
+  "_ToolPageLayout-CAJ-k_Vv.js": {
+    "file": "assets/ToolPageLayout-CAJ-k_Vv.js",
     "name": "ToolPageLayout",
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
-  "_circle-x-DEgoBy9V.js": {
-    "file": "assets/circle-x-DEgoBy9V.js",
+  "_circle-x-CWRZfMOU.js": {
+    "file": "assets/circle-x-CWRZfMOU.js",
     "name": "circle-x",
     "imports": [
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
-  "_download-B0hnecUD.js": {
-    "file": "assets/download-B0hnecUD.js",
+  "_download-CRVCEWee.js": {
+    "file": "assets/download-CRVCEWee.js",
     "name": "download",
     "imports": [
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
-  "_info-D_P8FyUG.js": {
-    "file": "assets/info-D_P8FyUG.js",
+  "_info-xcx_2Lng.js": {
+    "file": "assets/info-xcx_2Lng.js",
     "name": "info",
     "imports": [
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
-  "_loader-circle-CpAkCHxr.js": {
-    "file": "assets/loader-circle-CpAkCHxr.js",
+  "_loader-circle-BWaq8vpF.js": {
+    "file": "assets/loader-circle-BWaq8vpF.js",
     "name": "loader-circle",
     "imports": [
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
-  "_trash-2-BLf6qgkW.js": {
-    "file": "assets/trash-2-BLf6qgkW.js",
+  "_trash-2-BreQEFlb.js": {
+    "file": "assets/trash-2-BreQEFlb.js",
     "name": "trash-2",
     "imports": [
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
-  "_triangle-alert-DMuXRNio.js": {
-    "file": "assets/triangle-alert-DMuXRNio.js",
+  "_triangle-alert-r4U9yWzt.js": {
+    "file": "assets/triangle-alert-r4U9yWzt.js",
     "name": "triangle-alert",
     "imports": [
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
-  "_upload-C47KyaME.js": {
-    "file": "assets/upload-C47KyaME.js",
+  "_upload-mBWZaP7J.js": {
+    "file": "assets/upload-mBWZaP7J.js",
     "name": "upload",
     "imports": [
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
   "resources/css/app.css": {
-    "file": "assets/app-Cnn8iogs.css",
+    "file": "assets/app-CLCMNkDP.css",
     "name": "app",
     "names": [
       "app.css"
@@ -81,153 +81,153 @@
     "isEntry": true
   },
   "resources/js/Pages/Home.jsx": {
-    "file": "assets/Home-sBhv_For.js",
+    "file": "assets/Home-8Ghj-ex7.js",
     "name": "Home",
     "src": "resources/js/Pages/Home.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js"
+      "_JsonLd-1zVlCnrP.js"
     ]
   },
   "resources/js/Pages/Tools/BacklinkChecker.jsx": {
-    "file": "assets/BacklinkChecker-C5aPNh4f.js",
+    "file": "assets/BacklinkChecker-yS-_kyYF.js",
     "name": "BacklinkChecker",
     "src": "resources/js/Pages/Tools/BacklinkChecker.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_circle-x-DEgoBy9V.js",
-      "_triangle-alert-DMuXRNio.js",
-      "_info-D_P8FyUG.js",
-      "_loader-circle-CpAkCHxr.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_circle-x-CWRZfMOU.js",
+      "_triangle-alert-r4U9yWzt.js",
+      "_info-xcx_2Lng.js",
+      "_loader-circle-BWaq8vpF.js"
     ]
   },
   "resources/js/Pages/Tools/ImageCompressor.jsx": {
-    "file": "assets/ImageCompressor-atJuKun-.js",
+    "file": "assets/ImageCompressor-JpPtWcMa.js",
     "name": "ImageCompressor",
     "src": "resources/js/Pages/Tools/ImageCompressor.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_download-B0hnecUD.js",
-      "_loader-circle-CpAkCHxr.js",
-      "_upload-C47KyaME.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_download-CRVCEWee.js",
+      "_loader-circle-BWaq8vpF.js",
+      "_upload-mBWZaP7J.js"
     ]
   },
   "resources/js/Pages/Tools/JsonFormatter.jsx": {
-    "file": "assets/JsonFormatter-D9_ePLJP.js",
+    "file": "assets/JsonFormatter-DQf-ZJU6.js",
     "name": "JsonFormatter",
     "src": "resources/js/Pages/Tools/JsonFormatter.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_CopyButton-Bf7CX4u-.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_circle-x-DEgoBy9V.js",
-      "_download-B0hnecUD.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_CopyButton-HxopW6MK.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_circle-x-CWRZfMOU.js",
+      "_download-CRVCEWee.js"
     ]
   },
   "resources/js/Pages/Tools/KeywordDensity.jsx": {
-    "file": "assets/KeywordDensity-we-19lN5.js",
+    "file": "assets/KeywordDensity-Cpl8Y6Xy.js",
     "name": "KeywordDensity",
     "src": "resources/js/Pages/Tools/KeywordDensity.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_info-D_P8FyUG.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_info-xcx_2Lng.js"
     ]
   },
   "resources/js/Pages/Tools/RobotsTxt.jsx": {
-    "file": "assets/RobotsTxt-Bx4nL6oC.js",
+    "file": "assets/RobotsTxt-CHYMA1Ue.js",
     "name": "RobotsTxt",
     "src": "resources/js/Pages/Tools/RobotsTxt.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_CopyButton-Bf7CX4u-.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_download-B0hnecUD.js",
-      "_trash-2-BLf6qgkW.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_CopyButton-HxopW6MK.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_download-CRVCEWee.js",
+      "_trash-2-BreQEFlb.js"
     ]
   },
   "resources/js/Pages/Tools/SchemaMarkup.jsx": {
-    "file": "assets/SchemaMarkup-Bcn8NGQD.js",
+    "file": "assets/SchemaMarkup-ClM-VG1W.js",
     "name": "SchemaMarkup",
     "src": "resources/js/Pages/Tools/SchemaMarkup.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_CopyButton-Bf7CX4u-.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_circle-x-DEgoBy9V.js",
-      "_download-B0hnecUD.js",
-      "_trash-2-BLf6qgkW.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_CopyButton-HxopW6MK.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_circle-x-CWRZfMOU.js",
+      "_download-CRVCEWee.js",
+      "_trash-2-BreQEFlb.js"
     ]
   },
   "resources/js/Pages/Tools/SeoAudit.jsx": {
-    "file": "assets/SeoAudit-DJzj4xw3.js",
+    "file": "assets/SeoAudit-DJxbUAMQ.js",
     "name": "SeoAudit",
     "src": "resources/js/Pages/Tools/SeoAudit.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_circle-x-DEgoBy9V.js",
-      "_triangle-alert-DMuXRNio.js",
-      "_loader-circle-CpAkCHxr.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_circle-x-CWRZfMOU.js",
+      "_triangle-alert-r4U9yWzt.js",
+      "_loader-circle-BWaq8vpF.js"
     ]
   },
   "resources/js/Pages/Tools/SerpPreview.jsx": {
-    "file": "assets/SerpPreview-CN-70OKw.js",
+    "file": "assets/SerpPreview-Cix_i98M.js",
     "name": "SerpPreview",
     "src": "resources/js/Pages/Tools/SerpPreview.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_ToolPageLayout-COvt3xec.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_ToolPageLayout-CAJ-k_Vv.js"
     ]
   },
   "resources/js/Pages/Tools/UrlSlugGenerator.jsx": {
-    "file": "assets/UrlSlugGenerator-x8vPLt86.js",
+    "file": "assets/UrlSlugGenerator-CXDSlpKq.js",
     "name": "UrlSlugGenerator",
     "src": "resources/js/Pages/Tools/UrlSlugGenerator.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_CopyButton-Bf7CX4u-.js",
-      "_ToolPageLayout-COvt3xec.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_CopyButton-HxopW6MK.js",
+      "_ToolPageLayout-CAJ-k_Vv.js"
     ]
   },
   "resources/js/Pages/Tools/XmlSitemap.jsx": {
-    "file": "assets/XmlSitemap-DgaWNu3s.js",
+    "file": "assets/XmlSitemap-CKv2dxfK.js",
     "name": "XmlSitemap",
     "src": "resources/js/Pages/Tools/XmlSitemap.jsx",
     "isDynamicEntry": true,
     "imports": [
       "resources/js/app.jsx",
-      "_AppLayout-ZpQZTmIQ.js",
-      "_CopyButton-Bf7CX4u-.js",
-      "_ToolPageLayout-COvt3xec.js",
-      "_download-B0hnecUD.js",
-      "_trash-2-BLf6qgkW.js",
-      "_upload-C47KyaME.js"
+      "_JsonLd-1zVlCnrP.js",
+      "_CopyButton-HxopW6MK.js",
+      "_ToolPageLayout-CAJ-k_Vv.js",
+      "_download-CRVCEWee.js",
+      "_trash-2-BreQEFlb.js",
+      "_upload-mBWZaP7J.js"
     ]
   },
   "resources/js/app.jsx": {
-    "file": "assets/app-DC6N-Guv.js",
+    "file": "assets/app-OALHx-QK.js",
     "name": "app",
     "src": "resources/js/app.jsx",
     "isEntry": true,
@@ -245,7 +245,7 @@
       "resources/js/Pages/Tools/XmlSitemap.jsx"
     ],
     "css": [
-      "assets/app-Cnn8iogs.css"
+      "assets/app-CLCMNkDP.css"
     ]
   }
 }

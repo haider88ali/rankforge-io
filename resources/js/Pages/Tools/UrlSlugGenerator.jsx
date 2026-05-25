@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState, useMemo } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -70,13 +69,10 @@ export default function UrlSlugGeneratorPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free URL Slug Generator — Create SEO-Friendly URL Slugs</title>
-                <meta name="description" content="Convert any title or text into a clean, SEO-friendly URL slug instantly. Customize separator, remove stop words, set max length, and preview the full URL. 100% free." />
-                <meta name="keywords" content="url slug generator, seo friendly url generator, slug generator, permalink generator, url converter free, convert title to url, url slug creator, clean url generator, wordpress slug generator, blog post url generator, seo url maker, remove stop words from url, url generator from text, post name generator, url friendly text converter" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free URL Slug Generator — Create SEO-Friendly URL Slugs"
+                seoDescription="Convert titles into SEO-friendly URL slugs free on SeoKitHub (SEO Kit Hub). Customize separator, remove stop words, set max length, and preview the full URL instantly."
+                seoKeywords="url slug generator, seo friendly url generator, slug generator, permalink generator, url converter free, convert title to url, url slug creator, clean url generator, wordpress slug generator, blog post url generator, seo url maker, remove stop words from url, url generator from text, post name generator, url friendly text converter"
                 title="Free URL Slug Generator"
                 description="Convert any page title or text into a clean, SEO-friendly URL slug in one click. Customize the separator, remove stop words, set a max length, and preview the full URL before you use it."
                 breadcrumb="URL Slug Generator"

@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -46,13 +45,10 @@ export default function JsonFormatterPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free JSON Formatter & Validator — Beautify and Validate JSON Online</title>
-                <meta name="description" content="Format, beautify, minify, and validate JSON online for free. Instantly identify JSON errors with helpful messages. Nothing is sent to any server — 100% browser-based." />
-                <meta name="keywords" content="json formatter, json validator, json beautifier, json minifier, format json online, validate json free, json formatter online, json pretty print, json lint, json checker, json syntax validator, beautify json, minify json online, json editor online, json formatter and viewer, format json data, fix json errors, json parser online, json stringify, json schema validator" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free JSON Formatter & Validator — Beautify and Validate JSON Online"
+                seoDescription="Format, beautify, minify, and validate JSON free on SeoKitHub (SEO Kit Hub). Fix JSON errors instantly in your browser — nothing is sent to any server."
+                seoKeywords="json formatter, json validator, json beautifier, json minifier, format json online, validate json free, json formatter online, json pretty print, json lint, json checker, json syntax validator, beautify json, minify json online, json editor online, json formatter and viewer, format json data, fix json errors, json parser online, json stringify, json schema validator"
                 title="Free JSON Formatter & Validator"
                 description="Beautify, minify, and validate JSON data instantly in your browser. Get clear error messages for invalid JSON — nothing is ever sent to a server. 100% private and free."
                 breadcrumb="JSON Formatter"

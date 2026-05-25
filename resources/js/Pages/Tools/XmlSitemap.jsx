@@ -1,4 +1,3 @@
-import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
@@ -36,13 +35,10 @@ export default function XmlSitemapPage() {
 
     return (
         <AppLayout>
-            <Head>
-                <title>Free XML Sitemap Generator — Create sitemap.xml Online</title>
-                <meta name="description" content="Generate a valid XML sitemap for your website for free. Add URLs, set priority and change frequency, then download your sitemap.xml and submit it to Google Search Console." />
-                <meta name="keywords" content="xml sitemap generator, sitemap.xml generator, create sitemap, free sitemap generator, google sitemap tool, xml sitemap creator online, how to create sitemap.xml, sitemap generator free no limit, submit sitemap to google, sitemap for seo, website sitemap builder, sitemap generator without plugin, wordpress sitemap alternative, html sitemap vs xml sitemap, sitemap priority settings" />
-            </Head>
-
             <ToolPageLayout
+                seoTitle="Free XML Sitemap Generator — Create sitemap.xml Online"
+                seoDescription="Create a valid XML sitemap free on SeoKitHub (SEO Kit Hub). Add URLs, set priority and change frequency, download sitemap.xml, and submit to Google Search Console."
+                seoKeywords="xml sitemap generator, sitemap.xml generator, create sitemap, free sitemap generator, google sitemap tool, xml sitemap creator online, how to create sitemap.xml, sitemap generator free no limit, submit sitemap to google, sitemap for seo, website sitemap builder, sitemap generator without plugin, wordpress sitemap alternative, html sitemap vs xml sitemap, sitemap priority settings"
                 title="Free XML Sitemap Generator"
                 description="Create a valid sitemap.xml file for your website. Add your URLs, configure priorities and update frequencies, then download and submit to Google Search Console — completely free."
                 breadcrumb="XML Sitemap Generator"

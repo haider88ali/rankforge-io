@@ -1,8 +1,8 @@
 import { Link, usePage } from '@inertiajs/react';
 import { ChevronRight, ArrowRight } from 'lucide-react';
 import JsonLd from '@/Components/JsonLd';
-
-const BASE_URL = 'https://seokithub.com';
+import SeoHead from '@/Components/SeoHead';
+import { BASE_URL, SITE_NAME } from '@/config/seo';
 
 function buildSchemas({ title, description, breadcrumb, faqs, url }) {
     const pageUrl = `${BASE_URL}${url}`;
@@ -17,11 +17,12 @@ function buildSchemas({ title, description, breadcrumb, faqs, url }) {
         url: pageUrl,
         publisher: {
             '@type': 'Organization',
-            name: 'SeoKitHub',
+            name: SITE_NAME,
+            alternateName: 'SEO Kit Hub',
             url: BASE_URL,
             logo: {
                 '@type': 'ImageObject',
-                url: `${BASE_URL}/logo.png`,
+                url: `${BASE_URL}/favicon.svg`,
             },
         },
         breadcrumb: {
@@ -50,7 +51,8 @@ function buildSchemas({ title, description, breadcrumb, faqs, url }) {
         description: description,
         publisher: {
             '@type': 'Organization',
-            name: 'SeoKitHub',
+            name: SITE_NAME,
+            alternateName: 'SEO Kit Hub',
             url: BASE_URL,
         },
     });
@@ -75,6 +77,9 @@ function buildSchemas({ title, description, breadcrumb, faqs, url }) {
 }
 
 export default function ToolPageLayout({
+    seoTitle,
+    seoDescription,
+    seoKeywords,
     title,
     description,
     breadcrumb,
@@ -88,7 +93,12 @@ export default function ToolPageLayout({
 
     return (
         <>
-            {/* Inject all JSON-LD schemas */}
+            <SeoHead
+                title={seoTitle || title}
+                description={seoDescription || description}
+                keywords={seoKeywords}
+                type="website"
+            />
             <JsonLd schemas={schemas} />
 
             {/* Page hero */}
