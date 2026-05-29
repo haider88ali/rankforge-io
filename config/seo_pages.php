@@ -12,7 +12,7 @@ $appendKeywords = fn (string $keywords) => $keywords . ', ' . $defaultKeywords;
 return [
     'site_name' => 'SeoKitHub',
     'base_url'  => env('APP_URL', 'https://seokithub.com'),
-    'og_image'  => env('APP_URL', 'https://seokithub.com') . '/favicon.svg',
+    'og_image'  => rtrim(env('APP_URL', 'https://seokithub.com'), '/') . '/public/favicon.svg',
 
     'pages' => [
         '/' => [

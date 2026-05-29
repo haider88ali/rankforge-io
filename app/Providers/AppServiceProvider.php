@@ -21,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         View::composer('app', function ($view) {
-            $path = request()->path();
+            $path = trim(request()->path(), '/');
             $key = $path === '' ? '/' : '/' . $path;
             $pages = config('seo_pages.pages', []);
             $base = rtrim(config('seo_pages.base_url', config('app.url')), '/');

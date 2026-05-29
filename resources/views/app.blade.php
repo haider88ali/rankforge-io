@@ -37,6 +37,14 @@
         @inertiaHead
     </head>
     <body class="antialiased bg-gray-50 text-gray-900">
+        @if ($pageSeo ?? null)
+            <noscript>
+                <main style="max-width:48rem;margin:2rem auto;padding:0 1rem;font-family:system-ui,sans-serif">
+                    <h1>{{ $pageSeo['title'] }}</h1>
+                    <p>{{ $pageSeo['description'] }}</p>
+                </main>
+            </noscript>
+        @endif
         @inertia
     </body>
 </html>
