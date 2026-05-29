@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import { Info } from 'lucide-react';
 
 const STOP = new Set(['the','a','an','and','or','but','in','on','at','to','for','of','with','by','from','is','was','are','were','be','been','being','have','has','had','do','does','did','will','would','could','should','may','might','that','this','these','those','it','its','i','you','he','she','we','they','not','as','if','so','up','out','about','into','than','can','all','also','just','there','what','when','who','how','which','where','after','before','then','now','any','each','even','most','other','some','such','no','only','same','own','while','both','few','over','again','further','once','here']);
@@ -37,11 +38,9 @@ export default function KeywordDensityPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free Keyword Density Checker — Analyze Keyword Frequency in Content"
-                seoDescription="Check keyword density and frequency free on SeoKitHub (SEO Kit Hub). Get word count, keyword percentage, and suggestions to optimize content without over-stuffing."
-                seoKeywords="keyword density checker, keyword frequency tool, check keyword density, seo keyword analyzer, keyword percentage calculator, keyword stuffing checker, keyword density tool free, check keyword density online, content keyword analyzer, keyword prominence checker, seo content analyzer, keyword count tool, text keyword extractor, find keyword frequency, word frequency counter"
+                {...TOOL_SEO.keywordDensity}
                 title="Free Keyword Density Checker"
-                description="Paste your article or web page content to instantly analyze keyword frequency, density percentages, and word count. Get smart NLP-based suggestions to optimize your text for SEO."
+                description="Paste your content to analyze keyword frequency, density percentages, and word count. Get smart suggestions to optimize text for SEO without keyword stuffing."
                 breadcrumb="Keyword Density Checker"
                 howTo={[
                     { title: 'Paste Your Content', desc: 'Copy your article, blog post, or any web page text and paste it into the text area below.' },

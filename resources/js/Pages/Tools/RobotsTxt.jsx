@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import CopyButton from '@/Components/CopyButton';
 import { Download, Plus, Trash2 } from 'lucide-react';
 
@@ -39,11 +40,9 @@ export default function RobotsTxtPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free Robots.txt Generator — Build Your robots.txt File Online"
-                seoDescription="Generate a proper robots.txt file free on SeoKitHub (SEO Kit Hub). Add user-agent rules, disallow paths, sitemap URLs, and crawl-delay. Copy or download instantly."
-                seoKeywords="robots txt generator, robots.txt builder, create robots txt, robots txt file generator free, robots.txt creator online, how to create robots.txt, robots txt disallow, robots txt sitemap, robots txt allow, robots txt user agent, generate robots.txt file, robots txt tool, block google bot robots txt, robots txt best practices, crawl rules generator"
+                {...TOOL_SEO.robotsTxt}
                 title="Free Robots.txt Generator"
-                description="Create a properly formatted robots.txt file in seconds. Add user-agent rules, block specific paths, set crawl-delay, and include your sitemap URL — copy or download the file instantly."
+                description="Create a properly formatted robots.txt file in seconds. Add user-agent rules, block paths, set crawl-delay, and include your sitemap URL — copy or download instantly."
                 breadcrumb="Robots.txt Generator"
                 howTo={[
                     { title: 'Configure User-Agent Rules', desc: 'Choose which bots to target (all bots with * or specific ones like Googlebot). Add the paths you want to disallow or allow.' },

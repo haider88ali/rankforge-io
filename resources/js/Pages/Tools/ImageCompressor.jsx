@@ -1,6 +1,7 @@
 import { useState, useRef, useCallback } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import { Upload, Download, X, Loader2, Image as Img } from 'lucide-react';
 import imageCompression from 'browser-image-compression';
 
@@ -39,11 +40,9 @@ export default function ImageCompressorPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free Online Image Compressor — Compress JPG, PNG & WebP in Browser"
-                seoDescription="Compress JPG, PNG and WebP images free on SeoKitHub (SEO Kit Hub). Drag and drop, adjust quality, download instantly — files never leave your browser."
-                seoKeywords="image compressor, compress image online free, jpg compressor, png compressor, webp compressor, reduce image size online, image size reducer, compress photo online, reduce image file size, image optimizer free, bulk image compressor, compress image without losing quality, online image compression tool, shrink image file size, image compressor no watermark, browser image compressor"
+                {...TOOL_SEO.imageCompressor}
                 title="Free Online Image Compressor"
-                description="Compress JPG, PNG, and WebP images directly in your browser — no upload needed, no server processing. Adjust quality and max dimensions, then download your optimized images instantly."
+                description="Compress JPG, PNG, and WebP images in your browser — no server upload. Adjust quality and max dimensions, then download optimized images instantly."
                 breadcrumb="Image Compressor"
                 howTo={[
                     { title: 'Drag & Drop Your Images', desc: 'Drop your JPG, PNG, or WebP files onto the upload zone, or click to browse and select files.' },

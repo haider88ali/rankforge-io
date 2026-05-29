@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import CopyButton from '@/Components/CopyButton';
 import { CheckCircle2, XCircle, Minimize2, Maximize2, Download } from 'lucide-react';
 
@@ -46,11 +47,9 @@ export default function JsonFormatterPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free JSON Formatter & Validator — Beautify and Validate JSON Online"
-                seoDescription="Format, beautify, minify, and validate JSON free on SeoKitHub (SEO Kit Hub). Fix JSON errors instantly in your browser — nothing is sent to any server."
-                seoKeywords="json formatter, json validator, json beautifier, json minifier, format json online, validate json free, json formatter online, json pretty print, json lint, json checker, json syntax validator, beautify json, minify json online, json editor online, json formatter and viewer, format json data, fix json errors, json parser online, json stringify, json schema validator"
+                {...TOOL_SEO.jsonFormatter}
                 title="Free JSON Formatter & Validator"
-                description="Beautify, minify, and validate JSON data instantly in your browser. Get clear error messages for invalid JSON — nothing is ever sent to a server. 100% private and free."
+                description="Beautify, minify, and validate JSON instantly in your browser. Clear error messages for invalid JSON — nothing sent to a server. 100% private and free."
                 breadcrumb="JSON Formatter"
                 howTo={[
                     { title: 'Paste Your JSON', desc: 'Paste raw, minified, or malformed JSON into the input editor on the left.' },

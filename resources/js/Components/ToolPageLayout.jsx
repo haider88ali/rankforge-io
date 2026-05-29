@@ -87,6 +87,7 @@ export default function ToolPageLayout({
     howTo = [],
     faqs = [],
     relatedTools = [],
+    seoContent = [],
 }) {
     const { url } = usePage();
     const schemas = buildSchemas({ title, description, breadcrumb, faqs, url });
@@ -124,6 +125,29 @@ export default function ToolPageLayout({
             <section className="max-w-5xl mx-auto px-4 sm:px-6 py-12">
                 {children}
             </section>
+
+            {/* SEO content — helps rankings with topical depth */}
+            {seoContent.length > 0 && (
+                <section className="bg-white border-y border-gray-100 py-16 px-4">
+                    <div className="max-w-3xl mx-auto">
+                        {seoContent.map((block, i) => (
+                            <article key={i} className={i > 0 ? 'mt-10 pt-10 border-t border-gray-100' : ''}>
+                                <h2 className="text-xl font-bold text-gray-900 mb-4 not-prose">{block.heading}</h2>
+                                {block.paragraphs?.map((p, j) => (
+                                    <p key={j} className="text-sm text-gray-600 leading-relaxed mb-4">{p}</p>
+                                ))}
+                                {block.list && (
+                                    <ul className="text-sm text-gray-600 leading-relaxed space-y-2 list-disc pl-5 mb-4">
+                                        {block.list.map((item, k) => (
+                                            <li key={k}>{item}</li>
+                                        ))}
+                                    </ul>
+                                )}
+                            </article>
+                        ))}
+                    </div>
+                </section>
+            )}
 
             {/* How to use */}
             {howTo.length > 0 && (

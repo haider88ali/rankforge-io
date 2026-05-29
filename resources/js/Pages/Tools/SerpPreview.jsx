@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import { Monitor, Smartphone } from 'lucide-react';
 
 function pxWidth(text, fs) { return text.length * fs * 0.55; }
@@ -75,11 +76,9 @@ export default function SerpPreviewPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free SERP Preview Tool — See How Your Page Looks in Google"
-                seoDescription="Preview Google search results free on SeoKitHub (SEO Kit Hub). Check title and meta description pixel widths on desktop and mobile before you publish."
-                seoKeywords="serp preview tool, google search preview, serp simulator, meta title preview, seo preview tool free, google snippet preview, search result preview tool, seo snippet generator, title tag preview, meta description preview, mobile serp preview, desktop serp preview, how will my page look in google, google result simulator, seo title length checker"
+                {...TOOL_SEO.serpPreview}
                 title="Free SERP Preview Tool"
-                description="See exactly how your page title and meta description appear in Google search results — on both desktop and mobile. Check pixel widths to make sure nothing gets cut off."
+                description="See exactly how your page title and meta description appear in Google — on desktop and mobile. Check pixel widths so nothing gets cut off before you publish."
                 breadcrumb="SERP Preview Tool"
                 howTo={[
                     { title: 'Enter Your Page Details', desc: 'Fill in your page title, URL, and meta description. The preview updates in real time as you type.' },

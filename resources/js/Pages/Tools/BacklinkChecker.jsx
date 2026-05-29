@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import { Search, Loader2, CheckCircle2, XCircle, AlertTriangle, ExternalLink, Info } from 'lucide-react';
 
 const STATUS = {
@@ -35,11 +36,9 @@ export default function BacklinkCheckerPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free Backlink Checker — Domain Link Analysis Tool"
-                seoDescription="Check domain health signals with SeoKitHub (SEO Kit Hub). Analyze HTTPS, sitemap, robots.txt, and discover free backlink data sources. No signup required."
-                seoKeywords="backlink checker free, domain link analysis, check backlinks, free backlink tool, domain authority checker, free backlink checker online, check website backlinks, domain backlink checker, backlinks checker no sign up, find backlinks to website, domain link profile, free link analysis tool, check inbound links, website link checker free, backlink analyzer free"
-                title="Free Backlink Checker & Domain Analyzer"
-                description="Analyze any domain's SEO health signals — HTTPS status, sitemap, robots.txt, indexed pages, and get direct links to free backlink data from Ahrefs, Moz, and Majestic. No signup needed."
+                {...TOOL_SEO.backlinkChecker}
+                title="Free Backlink Checker — Check Backlinks for Any Website"
+                description="Search and check backlinks for any domain. Analyze HTTPS, sitemap, robots.txt, and indexed pages — then access free backlink data from Ahrefs, Moz & Majestic. No signup."
                 breadcrumb="Backlink Checker"
                 howTo={[
                     { title: 'Enter a Domain', desc: 'Type any domain name (e.g. example.com) — no need to include https://.' },

@@ -158,9 +158,9 @@ export default function Home() {
     return (
         <AppLayout>
             <SeoHead
-                title="SeoKitHub (SEO Kit Hub) — 10 Free SEO Tools. No Sign-up, No Limits."
-                description="SeoKitHub — your free SEO tool and SEO tools hub with 10 tools: website SEO audit, schema markup generator, robots.txt builder, XML sitemap, SERP preview, keyword checker, backlink checker, URL slug generator, JSON formatter, and image compressor. 100% free, no login."
-                keywords="seo tool, seo tools, free seo tool, free seo tools, seo tools online, online seo tools, seo kit, free seo kit, seo kit tools, seo kit online, seo, free seo, seo online, seokithub, seo kit hub, seo kit hub free tools, seokit hub, seo tools for marketers, seo tools no login, website seo audit tool, schema markup generator, robots txt generator, xml sitemap generator"
+                title="SeoKitHub — 10 Free SEO Tools Online (No Sign-up)"
+                description="Free SEO tools & SEO kit online — backlink checker, SEO audit, schema markup, sitemap generator, robots.txt & more. 100% free, no login. Start optimizing now."
+                keywords="seo tools, free seo tools, seo tool, free seo tool, seo tools online, online seo tools, seo kit, free seo kit, seo kit tools, backlink checker, seo audit tool, schema markup generator, sitemap generator, robots txt generator, seokithub, seo kit hub, seo tools no sign up, best free seo tools, seo tools for website, seo tools for marketers"
             />
             <JsonLd schemas={homeSchemas} />
 
@@ -253,6 +253,26 @@ export default function Home() {
                             </div>
                         ))}
                     </div>
+                </div>
+            </section>
+
+            {/* SEO content */}
+            <section className="bg-white border-t border-gray-200 py-20 px-4">
+                <div className="max-w-3xl mx-auto">
+                    <h2 className="text-2xl font-bold text-gray-900 mb-4">Free SEO Tools & SEO Kit for Every Marketer</h2>
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                        SeoKitHub is a free online SEO toolkit with 10 professional-grade tools — no account, no credit card, no limits. Whether you need a backlink checker, website SEO audit, schema markup generator, XML sitemap builder, or SERP preview tool, everything runs instantly in your browser or via lightweight server-side analysis.
+                    </p>
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                        Our SEO tools help marketers, bloggers, agencies, and developers optimize websites for Google search. Use the free backlink checker to search and analyze inbound links, run a full SEO audit to find on-page issues, generate JSON-LD structured data for rich results, and create robots.txt and sitemap.xml files to improve crawlability.
+                    </p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-3 mt-8">Why Choose SeoKitHub?</h3>
+                    <ul className="text-sm text-gray-600 leading-relaxed space-y-2 list-disc pl-5">
+                        <li>10 free SEO tools covering audits, backlinks, schema, sitemaps, and content optimization</li>
+                        <li>No sign-up required — start using any tool immediately</li>
+                        <li>Privacy-first — browser tools never upload your data to servers</li>
+                        <li>Built for speed — instant results with no waiting or API costs</li>
+                    </ul>
                 </div>
             </section>
 

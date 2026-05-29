@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import CopyButton from '@/Components/CopyButton';
 import { Download, Plus, Trash2, CheckCircle2, XCircle } from 'lucide-react';
 
@@ -51,11 +52,9 @@ export default function SchemaMarkupPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free Schema Markup Generator — JSON-LD Structured Data Tool"
-                seoDescription="Generate valid JSON-LD schema markup on SeoKitHub (SEO Kit Hub). Create FAQ, Product, Article, and Organization schema for Google rich results. Free, instant, no login."
-                seoKeywords="schema markup generator, json-ld generator, structured data generator, faq schema generator, product schema markup, article schema, organization schema, json ld schema creator, rich results generator, schema.org generator free, structured data tool, how to add schema markup, schema markup tool online, google rich snippets generator, seo structured data"
+                {...TOOL_SEO.schemaMarkup}
                 title="Free Schema Markup Generator"
-                description="Generate valid JSON-LD structured data for your website. Supports FAQ, Product, Article, and Organization schemas — copy the code and paste it into your HTML to unlock rich results in Google."
+                description="Generate valid JSON-LD structured data for FAQ, Product, Article, and Organization schemas. Copy the code and paste into your HTML to unlock Google rich results."
                 breadcrumb="Schema Markup Generator"
                 howTo={[
                     { title: 'Choose Schema Type', desc: 'Select the type of schema that matches your page — FAQ, Product, Article, or Organization.' },

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import AppLayout from '@/Layouts/AppLayout';
 import ToolPageLayout from '@/Components/ToolPageLayout';
+import { TOOL_SEO } from '@/config/toolSeo';
 import CopyButton from '@/Components/CopyButton';
 import { Download, Plus, Trash2, Upload } from 'lucide-react';
 
@@ -36,11 +37,9 @@ export default function XmlSitemapPage() {
     return (
         <AppLayout>
             <ToolPageLayout
-                seoTitle="Free XML Sitemap Generator — Create sitemap.xml Online"
-                seoDescription="Create a valid XML sitemap free on SeoKitHub (SEO Kit Hub). Add URLs, set priority and change frequency, download sitemap.xml, and submit to Google Search Console."
-                seoKeywords="xml sitemap generator, sitemap.xml generator, create sitemap, free sitemap generator, google sitemap tool, xml sitemap creator online, how to create sitemap.xml, sitemap generator free no limit, submit sitemap to google, sitemap for seo, website sitemap builder, sitemap generator without plugin, wordpress sitemap alternative, html sitemap vs xml sitemap, sitemap priority settings"
+                {...TOOL_SEO.xmlSitemap}
                 title="Free XML Sitemap Generator"
-                description="Create a valid sitemap.xml file for your website. Add your URLs, configure priorities and update frequencies, then download and submit to Google Search Console — completely free."
+                description="Create a valid sitemap.xml for your website. Add URLs, set priority and update frequency, then download and submit to Google Search Console — completely free."
                 breadcrumb="XML Sitemap Generator"
                 howTo={[
                     { title: 'Add Your URLs', desc: 'Enter each page URL one by one, or use the bulk import to paste multiple URLs at once.' },
