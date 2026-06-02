@@ -22,32 +22,32 @@ return [
         ],
 
         '/backlink-checker' => [
-            'title'       => 'Free Backlink Checker — Check Backlinks & Search Links (No Sign-up)',
-            'description' => 'Free backlink checker by SeoKitHub. Search backlinks, check backlink profile, analyze HTTPS, sitemap & robots.txt for any domain. 100% free — no login, instant results.',
+            'title'       => 'Free Backlink Checker Online — No Sign Up, Check Any Domain',
+            'description' => 'Free backlink checker online with no sign up. Check backlinks, search link profile, and analyze HTTPS, sitemap & robots.txt for any website. 100% free — instant results.',
             'keywords'    => $appendKeywords('backlink checker, backlink search, check backlink, check backlinks, backlink checker free, free backlink checker, backlink search tool, search backlinks, search backlinks free, find backlinks, backlink lookup, backlink analyzer, check website backlinks, domain backlink checker, inbound link checker, link profile checker, backlink checker online, backlink checker no sign up, free backlink tool, domain link analysis, check backlinks to my site, backlink checker tool, website backlink checker'),
         ],
 
         '/seo-audit-tool' => [
-            'title'       => 'Free SEO Audit Tool — Website SEO Checker & Score (Instant Report)',
-            'description' => 'Run a free website SEO audit in seconds. Check title tags, meta descriptions, H1, schema, SSL, robots.txt & 17 SEO factors. Get an SEO score — no sign-up required.',
+            'title'       => 'Free Website SEO Audit Tool Online — Instant Score Report',
+            'description' => 'Free website SEO audit tool online — no sign up. Check title tags, meta, H1, schema, SSL, robots.txt & 17 factors. Get an instant SEO score report for any URL.',
             'keywords'    => $appendKeywords('seo audit tool, website seo audit, free seo audit, seo checker, seo analysis tool, website seo checker, on page seo audit, seo score checker, free seo checker, check seo of website, seo audit report, technical seo audit, full seo audit free, seo health check, website audit tool free, page seo analyzer, seo audit online, site seo checker, seo audit tool free, website seo analysis'),
         ],
 
         '/schema-markup-generator' => [
-            'title'       => 'Free Schema Markup Generator — JSON-LD Structured Data Tool',
-            'description' => 'Generate valid JSON-LD schema markup free. Create FAQ, Product, Article & Organization schema for Google rich results. Copy, download — no login needed.',
+            'title'       => 'Free JSON-LD Generator Online — FAQ, Product & Article Schema',
+            'description' => 'Free JSON-LD generator online with no login. Create FAQ, Product, Article & Organization schema markup for Google rich results. Copy or download instantly.',
             'keywords'    => $appendKeywords('schema markup generator, json-ld generator, structured data generator, schema generator free, faq schema generator, product schema markup, article schema generator, organization schema, rich snippets generator, schema.org tool, google structured data, json ld creator, add schema markup, structured data tool free, seo schema generator, rich results tool, schema markup tool online, json ld schema generator, google rich snippets, structured data markup'),
         ],
 
         '/robots-txt-generator' => [
-            'title'       => 'Free Robots.txt Generator — Create robots.txt File Online',
-            'description' => 'Build a valid robots.txt file free. Set user-agent rules, disallow paths, add sitemap URL & crawl-delay. Copy or download instantly — no sign-up.',
+            'title'       => 'Free Robots.txt Generator Online — Create & Download Instantly',
+            'description' => 'Free robots.txt generator online — no sign up. Build user-agent rules, disallow paths, add sitemap URL & crawl-delay. Copy or download robots.txt instantly.',
             'keywords'    => $appendKeywords('robots txt generator, robots.txt generator, create robots txt, robots txt file generator, robots.txt builder, generate robots.txt, robots txt maker, robots txt creator, robots txt tool free, how to create robots.txt, robots txt disallow, robots txt sitemap, robots txt allow, robots txt user agent, crawl rules generator, robots txt best practices, block bots robots txt, seo robots txt, website robots file'),
         ],
 
         '/xml-sitemap-generator' => [
-            'title'       => 'Free XML Sitemap Generator — Create sitemap.xml for Google',
-            'description' => 'Create a valid XML sitemap free. Add URLs, set priority & changefreq, download sitemap.xml and submit to Google Search Console. No plugin needed.',
+            'title'       => 'Free XML Sitemap Generator Online — No Sign Up Required',
+            'description' => 'Free XML sitemap generator online — no sign up, no limits. Add URLs, set priority & changefreq, download sitemap.xml and submit to Google Search Console.',
             'keywords'    => $appendKeywords('xml sitemap generator, sitemap generator, sitemap.xml generator, create sitemap, free sitemap generator, google sitemap generator, xml sitemap creator, sitemap maker, website sitemap builder, generate sitemap xml, sitemap for seo, submit sitemap to google, sitemap tool free, sitemap generator online, create sitemap.xml, xml sitemap tool, sitemap builder free, google sitemap xml'),
         ],
 

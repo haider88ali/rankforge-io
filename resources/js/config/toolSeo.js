@@ -2,9 +2,9 @@
 
 export const TOOL_SEO = {
     backlinkChecker: {
-        seoTitle: 'Free Backlink Checker — Check Backlinks & Search Links (No Sign-up)',
-        seoDescription: 'Free backlink checker by SeoKitHub. Search backlinks, check backlink profile, analyze HTTPS, sitemap & robots.txt for any domain. 100% free — no login, instant results.',
-        seoKeywords: 'backlink checker, backlink search, check backlink, check backlinks, backlink checker free, free backlink checker, backlink search tool, search backlinks, search backlinks free, find backlinks, backlink lookup, backlink analyzer, check website backlinks, domain backlink checker, inbound link checker, link profile checker, backlink checker online, backlink checker no sign up, free backlink tool, domain link analysis, check backlinks to my site, backlink checker tool, website backlink checker',
+        seoTitle: 'Free Backlink Checker Online — No Sign Up, Check Any Domain',
+        seoDescription: 'Free backlink checker online with no sign up. Check backlinks, search link profile, and analyze HTTPS, sitemap & robots.txt for any website. 100% free — instant results.',
+        seoKeywords: 'free backlink checker online, backlink checker no sign up, backlink checker online free, check backlinks free no signup, backlink checker, backlink search, check backlink, check backlinks, backlink checker free, free backlink checker, backlink search tool, search backlinks, search backlinks free, find backlinks, backlink lookup, backlink analyzer, check website backlinks, domain backlink checker, inbound link checker, link profile checker, backlink checker online, free backlink tool, domain link analysis, check backlinks to my site, backlink checker tool, website backlink checker',
         seoContent: [
             {
                 heading: 'What Is a Backlink Checker?',
@@ -35,8 +35,8 @@ export const TOOL_SEO = {
     },
 
     seoAudit: {
-        seoTitle: 'Free SEO Audit Tool — Website SEO Checker & Score (Instant Report)',
-        seoDescription: 'Run a free website SEO audit in seconds. Check title tags, meta descriptions, H1, schema, SSL, robots.txt & 17 SEO factors. Get an SEO score — no sign-up required.',
+        seoTitle: 'Free Website SEO Audit Tool Online — Instant Score Report',
+        seoDescription: 'Free website SEO audit tool online — no sign up. Check title tags, meta, H1, schema, SSL, robots.txt & 17 factors. Get an instant SEO score report for any URL.',
         seoKeywords: 'seo audit tool, website seo audit, free seo audit, seo checker, seo analysis tool, website seo checker, on page seo audit, seo score checker, free seo checker, check seo of website, seo audit report, technical seo audit, full seo audit free, seo health check, website audit tool free, page seo analyzer, seo audit online, site seo checker, seo audit tool free, website seo analysis',
         seoContent: [
             {
@@ -61,8 +61,8 @@ export const TOOL_SEO = {
     },
 
     schemaMarkup: {
-        seoTitle: 'Free Schema Markup Generator — JSON-LD Structured Data Tool',
-        seoDescription: 'Generate valid JSON-LD schema markup free. Create FAQ, Product, Article & Organization schema for Google rich results. Copy, download — no login needed.',
+        seoTitle: 'Free JSON-LD Generator Online — FAQ, Product & Article Schema',
+        seoDescription: 'Free JSON-LD generator online with no login. Create FAQ, Product, Article & Organization schema markup for Google rich results. Copy or download instantly.',
         seoKeywords: 'schema markup generator, json-ld generator, structured data generator, schema generator free, faq schema generator, product schema markup, article schema generator, organization schema, rich snippets generator, schema.org tool, google structured data, json ld creator, add schema markup, structured data tool free, seo schema generator, rich results tool, schema markup tool online, json ld schema generator, google rich snippets, structured data markup',
         seoContent: [
             {
@@ -80,8 +80,8 @@ export const TOOL_SEO = {
     },
 
     robotsTxt: {
-        seoTitle: 'Free Robots.txt Generator — Create robots.txt File Online',
-        seoDescription: 'Build a valid robots.txt file free. Set user-agent rules, disallow paths, add sitemap URL & crawl-delay. Copy or download instantly — no sign-up.',
+        seoTitle: 'Free Robots.txt Generator Online — Create & Download Instantly',
+        seoDescription: 'Free robots.txt generator online — no sign up. Build user-agent rules, disallow paths, add sitemap URL & crawl-delay. Copy or download robots.txt instantly.',
         seoKeywords: 'robots txt generator, robots.txt generator, create robots txt, robots txt file generator, robots.txt builder, generate robots.txt, robots txt maker, robots txt creator, robots txt tool free, how to create robots.txt, robots txt disallow, robots txt sitemap, robots txt allow, robots txt user agent, crawl rules generator, robots txt best practices, block bots robots txt, seo robots txt, website robots file',
         seoContent: [
             {
@@ -99,8 +99,8 @@ export const TOOL_SEO = {
     },
 
     xmlSitemap: {
-        seoTitle: 'Free XML Sitemap Generator — Create sitemap.xml for Google',
-        seoDescription: 'Create a valid XML sitemap free. Add URLs, set priority & changefreq, download sitemap.xml and submit to Google Search Console. No plugin needed.',
+        seoTitle: 'Free XML Sitemap Generator Online — No Sign Up Required',
+        seoDescription: 'Free XML sitemap generator online — no sign up, no limits. Add URLs, set priority & changefreq, download sitemap.xml and submit to Google Search Console.',
         seoKeywords: 'xml sitemap generator, sitemap generator, sitemap.xml generator, create sitemap, free sitemap generator, google sitemap generator, xml sitemap creator, sitemap maker, website sitemap builder, generate sitemap xml, sitemap for seo, submit sitemap to google, sitemap tool free, sitemap generator online, create sitemap.xml, xml sitemap tool, sitemap builder free, google sitemap xml',
         seoContent: [
             {
