@@ -47,11 +47,10 @@ export default function XmlSitemapPage() {
                     { title: 'Download & Submit', desc: 'Download your sitemap.xml and upload it to your server root. Then submit it in Google Search Console.' },
                 ]}
                 faqs={[
-                    { q: 'What is an XML sitemap?', a: 'An XML sitemap is a file that lists all the important URLs on your website. It helps search engines like Google discover and index your pages faster and more efficiently.' },
-                    { q: 'Where do I put my sitemap.xml?', a: 'Upload sitemap.xml to your website root so it is accessible at https://yourdomain.com/sitemap.xml. Then add a reference to it in your robots.txt file.' },
-                    { q: 'How do I submit my sitemap to Google?', a: 'Go to Google Search Console → Sitemaps → Enter your sitemap URL → Click Submit. Google will then start crawling your URLs.' },
-                    { q: 'What is sitemap priority?', a: 'Priority (0.1–1.0) tells search engines how important a URL is relative to other pages on your site. Your homepage is typically 1.0. It does not directly affect rankings.' },
-                    { q: 'How often should I update my sitemap?', a: 'Update your sitemap whenever you add, remove, or significantly update pages. Most CMS platforms like WordPress can auto-generate and update your sitemap.' },
+                    { q: 'Where does sitemap.xml go?', a: 'Upload to your site root at yourdomain.com/sitemap.xml.' },
+                    { q: 'How do I submit it to Google?', a: 'Google Search Console → Sitemaps → enter sitemap.xml → Submit.' },
+                    { q: 'What does priority mean?', a: 'Relative importance (0.1–1.0). Homepage is usually 1.0. It doesn\'t directly affect rankings.' },
+                    { q: 'How many URLs can I add?', a: 'No limit in our tool. Google accepts up to 50,000 URLs per sitemap file.' },
                 ]}
                 relatedTools={[
                     { name: 'Robots.txt Generator', href: '/robots-txt-generator', desc: 'Add your sitemap URL to your robots.txt file.' },

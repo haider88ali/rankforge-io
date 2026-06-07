@@ -62,11 +62,10 @@ export default function SchemaMarkupPage() {
                     { title: 'Copy & Paste into HTML', desc: 'Copy the generated script tag and paste it inside the <head> of your HTML page.' },
                 ]}
                 faqs={[
-                    { q: 'What is schema markup?', a: 'Schema markup (structured data) is code added to your HTML that helps search engines understand your content. It can enable rich results like FAQ dropdowns, star ratings, and product prices in Google.' },
-                    { q: 'What is JSON-LD?', a: "JSON-LD (JavaScript Object Notation for Linked Data) is Google's recommended format for structured data. It's a script tag added to your page's <head> that does not affect your visible page content." },
-                    { q: 'Which schema type should I use?', a: 'Use FAQ schema for pages with question-and-answer sections, Product schema for e-commerce pages, Article schema for blog posts, and Organization schema for your homepage or About page.' },
-                    { q: 'How do I test my schema markup?', a: "After adding the schema to your page, use Google's Rich Results Test (search.google.com/test/rich-results) to validate it and see if it qualifies for rich results." },
-                    { q: 'Does schema markup improve SEO rankings?', a: 'Schema markup does not directly improve rankings, but it can increase click-through rates significantly by enabling rich results (star ratings, FAQs, prices) in the SERP.' },
+                    { q: 'Where do I paste the generated code?', a: 'Add the script tag inside your page\'s <head> or before </body>.' },
+                    { q: 'Which schema type should I pick?', a: 'FAQ for Q&A pages, Product for shop items, Article for blog posts, Organization for your homepage.' },
+                    { q: 'Is the output valid JSON-LD?', a: 'Yes — copy the code and test it in Google\'s Rich Results Test.' },
+                    { q: 'Does schema improve rankings?', a: 'Not directly, but rich results (stars, FAQs) can boost click-through rates.' },
                 ]}
                 relatedTools={[
                     { name: 'Robots.txt Generator', href: '/robots-txt-generator', desc: 'Control how search engines crawl your site.' },

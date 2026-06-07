@@ -86,10 +86,10 @@ export default function SerpPreviewPage() {
                     { title: 'Switch Desktop / Mobile', desc: 'Toggle between desktop and mobile views to see how your snippet looks on different devices.' },
                 ]}
                 faqs={[
-                    { q: 'How does Google decide what title to show?', a: "Google may rewrite your title tag if it's too long, too short, or doesn't match the page content. Keep titles between 50–60 characters and make them descriptive." },
-                    { q: 'What is the pixel limit for meta titles?', a: 'Google truncates titles at approximately 600px width. Since font sizes vary, the safest limit is around 55–60 characters for most fonts.' },
-                    { q: 'What is the pixel limit for meta descriptions?', a: 'Descriptions are truncated at approximately 920px on desktop, which is roughly 155–160 characters. Mobile descriptions are shorter — around 120 characters.' },
-                    { q: 'Does Google always show my meta description?', a: "No — Google may rewrite or replace your description with text from the page if it's more relevant to the query. Write a clear, keyword-rich description as a strong default." },
+                    { q: 'Why does Google truncate my title?', a: 'Titles over ~600px wide get cut off. Keep titles under 55–60 characters.' },
+                    { q: 'What\'s the max description length?', a: '~155 characters on desktop, ~120 on mobile before truncation.' },
+                    { q: 'Will Google always show my description?', a: 'Not always — Google may rewrite it based on the search query.' },
+                    { q: 'Does this match real Google results?', a: 'It\'s an approximation. Actual display varies by device and query.' },
                 ]}
                 relatedTools={[
                     { name: 'SEO Audit Tool', href: '/seo-audit-tool', desc: 'Run a full SEO audit on the page you are previewing.' },

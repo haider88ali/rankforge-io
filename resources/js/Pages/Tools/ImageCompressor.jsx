@@ -50,11 +50,10 @@ export default function ImageCompressorPage() {
                     { title: 'Download Compressed Files', desc: 'Click Download on each image or use Download All to save all compressed files at once.' },
                 ]}
                 faqs={[
-                    { q: 'Are my images uploaded to a server?', a: 'No. All compression happens entirely in your browser using JavaScript (WebAssembly). Your images never leave your device.' },
-                    { q: 'What image formats are supported?', a: 'JPG/JPEG, PNG, and WebP are supported. GIF and SVG are not supported for compression.' },
-                    { q: 'What quality setting should I use?', a: 'For web images, 70–80% quality is a good balance between file size and visual quality. For thumbnails, 60% is fine. For print or hero images, use 85–90%.' },
-                    { q: 'Why should I compress images for my website?', a: 'Large images are one of the biggest causes of slow page load times. Compressing images can improve Core Web Vitals (LCP), reduce bounce rates, and help SEO rankings.' },
-                    { q: 'Can I compress multiple images at once?', a: 'Yes — drop multiple files at once or select multiple files using your file browser. Each image is compressed independently.' },
+                    { q: 'Are images uploaded to your server?', a: 'No — compression runs entirely in your browser. Images stay on your device.' },
+                    { q: 'What formats are supported?', a: 'JPG, PNG, and WebP. GIF and SVG are not supported.' },
+                    { q: 'What quality setting should I use?', a: '70–80% for web use. Lower for thumbnails, 85–90% for hero images.' },
+                    { q: 'Can I compress multiple images at once?', a: 'Yes — drag and drop or select multiple files at once.' },
                 ]}
                 relatedTools={[
                     { name: 'SEO Audit Tool', href: '/seo-audit-tool', desc: 'Check the full SEO health of the page where you use these images.' },

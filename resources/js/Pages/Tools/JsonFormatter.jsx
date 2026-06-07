@@ -57,11 +57,10 @@ export default function JsonFormatterPage() {
                     { title: 'Copy or Download', desc: 'Copy the formatted result to clipboard or download it as a .json file.' },
                 ]}
                 faqs={[
-                    { q: 'What is JSON?', a: 'JSON (JavaScript Object Notation) is a lightweight data format used to exchange data between servers and web applications. It is human-readable and easy to parse.' },
-                    { q: 'What does beautify JSON mean?', a: 'Beautifying JSON adds indentation and line breaks to make it easier to read. Minifying does the opposite — it removes all whitespace to reduce file size.' },
-                    { q: 'Is my JSON data safe?', a: 'Yes — all processing happens entirely in your browser using JavaScript. Your JSON data is never sent to any server, stored, or logged.' },
-                    { q: 'What are common JSON errors?', a: "Common issues include: missing quotes around keys, trailing commas, using single quotes instead of double quotes, and mismatched brackets. Our validator shows the exact error with line numbers." },
-                    { q: 'Can I use this for JSON-LD schema markup?', a: 'Yes! Paste your schema markup JSON to validate and format it before adding it to your HTML page.' },
+                    { q: 'Is my data sent to a server?', a: 'No — everything runs in your browser. Your JSON never leaves your device.' },
+                    { q: 'Beautify vs minify — what\'s the difference?', a: 'Beautify adds spacing for readability. Minify removes whitespace for smaller file size.' },
+                    { q: 'Why is my JSON invalid?', a: 'Common fixes: use double quotes, remove trailing commas, match all brackets.' },
+                    { q: 'Can I validate JSON-LD schema here?', a: 'Yes — paste your schema markup and click Validate or Beautify.' },
                 ]}
                 relatedTools={[
                     { name: 'Schema Markup Generator', href: '/schema-markup-generator', desc: 'Generate JSON-LD structured data for your pages.' },

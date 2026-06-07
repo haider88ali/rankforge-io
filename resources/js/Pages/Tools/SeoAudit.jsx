@@ -93,11 +93,10 @@ export default function SeoAuditPage() {
                     { title: 'Fix the Issues', desc: 'Review each check — passes, warnings and failures — and prioritize fixing the red items first.' },
                 ]}
                 faqs={[
-                    { q: 'What does the SEO audit tool check?', a: 'We analyze 17 factors including title tag, meta description, H1/H2 headings, image alt text, canonical URL, meta robots, HTTPS, mobile viewport, structured data, Open Graph, Twitter Card, word count, HTML lang attribute, robots.txt, sitemap, and server response time.' },
-                    { q: 'Is this tool free?', a: 'Yes, 100% free. No account, no limits, no cost. Enter any URL and get a full SEO report instantly.' },
-                    { q: 'How is the SEO score calculated?', a: 'The score is based on the percentage of checks that pass. A score of 80+ is excellent, 50-79 is good with room to improve, and below 50 means critical issues need fixing.' },
-                    { q: 'Can I audit any website, not just mine?', a: 'Yes, you can audit any publicly accessible website. This is useful for competitor analysis or checking client sites.' },
-                    { q: 'Why is my page load time different from PageSpeed Insights?', a: "Our tool measures raw server response time (TTFB) from our server. Google PageSpeed measures full page load including all assets in the browser. Use Google PageSpeed Insights for Core Web Vitals measurement." },
+                    { q: 'What does the audit check?', a: '17 on-page and technical factors — title, meta, headings, SSL, schema, robots.txt, sitemap, and server response time.' },
+                    { q: 'How is the SEO score calculated?', a: 'Percentage of checks passed. 80+ is strong, 50–79 needs work, below 50 has critical issues.' },
+                    { q: 'Can I audit a competitor\'s site?', a: 'Yes — enter any publicly accessible URL.' },
+                    { q: 'Is this the same as PageSpeed Insights?', a: 'No. We check on-page SEO factors. PageSpeed measures load performance and Core Web Vitals.' },
                 ]}
                 relatedTools={[
                     { name: 'Schema Markup Generator', href: '/schema-markup-generator', desc: 'Fix missing structured data found in your audit.' },

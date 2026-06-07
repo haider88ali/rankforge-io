@@ -46,10 +46,10 @@ export default function BacklinkCheckerPage() {
                     { title: 'Find Backlink Data', desc: 'Use the direct links to free tools like Ahrefs Free, Moz Link Explorer and Majestic to see actual backlinks.' },
                 ]}
                 faqs={[
-                    { q: 'Why can\'t I see exact backlink counts for free?', a: "Real backlink databases require crawling billions of pages continuously. Tools like Ahrefs and Moz spend millions building these databases — that's why they charge. We show you free access points to these tools." },
-                    { q: 'What domain signals do you check?', a: 'We check: HTTPS/SSL status, homepage title tag, meta description presence, robots.txt file, XML sitemap existence, and the number of URLs indexed in the sitemap.' },
-                    { q: 'Which free backlink tools are the best?', a: 'Ahrefs free backlink checker gives 100 backlinks per domain. Moz Link Explorer gives 10 free queries/month. Majestic gives limited free data. Google Search Console (for your own site) gives full backlink data for free.' },
-                    { q: 'How can I build backlinks to my site?', a: 'Top strategies: guest posting, creating linkable assets (tools, guides, data studies), submitting to directories, getting mentioned in industry roundups, and earning links through HARO (Help A Reporter Out).' },
+                    { q: 'Why don\'t I see exact backlink counts?', a: 'Full backlink databases cost millions to build. We check domain health signals and link you to free tools (Ahrefs, Moz, Search Console) for actual backlink data.' },
+                    { q: 'Do I need to type https://?', a: 'No — just enter the domain, like example.com.' },
+                    { q: 'What does this tool check?', a: 'HTTPS, title tag, meta description, robots.txt, XML sitemap, and indexed page count.' },
+                    { q: 'Is it free? Do I need an account?', a: 'Yes, 100% free. No sign up required.' },
                 ]}
                 relatedTools={[
                     { name: 'SEO Audit Tool', href: '/seo-audit-tool', desc: 'Run a full on-page SEO analysis on any URL.' },

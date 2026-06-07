@@ -48,11 +48,10 @@ export default function KeywordDensityPage() {
                     { title: 'Review Suggestions', desc: 'Read the NLP-based suggestions to identify over-used keywords or content that needs more depth.' },
                 ]}
                 faqs={[
-                    { q: 'What is keyword density?', a: 'Keyword density is the percentage of times a keyword appears in your content compared to the total word count. Formula: (keyword count ÷ total words) × 100.' },
-                    { q: 'What is the ideal keyword density for SEO?', a: 'There is no single perfect number, but most SEO experts recommend keeping your primary keyword between 0.5% and 2.5%. Going above 3–4% risks being flagged for keyword stuffing.' },
-                    { q: 'What is keyword stuffing?', a: "Keyword stuffing is the practice of overloading a page with keywords to manipulate rankings. Google penalizes this. Focus on natural, reader-friendly writing instead." },
-                    { q: 'Why does the tool skip short words?', a: 'Words under 3 characters and common stop words (the, and, a, etc.) are filtered out because they are not meaningful for SEO analysis.' },
-                    { q: 'Can I check keyword density for a specific keyword?', a: 'Yes — use the filter box above the results table to search for any specific keyword and see its frequency and density.' },
+                    { q: 'What\'s a good keyword density?', a: 'Aim for 0.5–2.5% for your main keyword. Above 3–4% may look like stuffing.' },
+                    { q: 'Why are some words missing?', a: 'Stop words (the, and, is) and words under 3 characters are filtered out.' },
+                    { q: 'Can I search for one keyword?', a: 'Yes — use the filter box above the results table.' },
+                    { q: 'Does keyword density still matter?', a: 'Less than before. Use this tool to catch over-optimization, not to hit a magic number.' },
                 ]}
                 relatedTools={[
                     { name: 'SERP Preview Tool', href: '/serp-preview-tool', desc: 'Preview how your optimized title and description look in Google.' },

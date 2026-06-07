@@ -50,11 +50,10 @@ export default function RobotsTxtPage() {
                     { title: 'Download & Upload', desc: 'Copy the generated robots.txt or download it. Upload the file to your website root directory (e.g. https://example.com/robots.txt).' },
                 ]}
                 faqs={[
-                    { q: 'What is a robots.txt file?', a: 'Robots.txt is a file in your website root that tells search engine crawlers which pages or sections they can or cannot access. It follows the Robots Exclusion Protocol.' },
-                    { q: 'Where should I upload my robots.txt?', a: 'Upload it to the root of your domain so it is accessible at https://yourdomain.com/robots.txt. This is the only location search engines will check.' },
-                    { q: 'Does robots.txt prevent pages from ranking?', a: 'Disallowing a URL in robots.txt blocks crawling but does not remove already-indexed pages. To remove a page from the index, use a noindex meta tag or Google Search Console.' },
-                    { q: 'What does Disallow: / mean?', a: 'Disallow: / blocks all paths on your website. Use this carefully — it prevents search engines from crawling your entire site.' },
-                    { q: 'Should I block GPTBot in robots.txt?', a: "GPTBot is OpenAI's crawler. You can block it with User-agent: GPTBot / Disallow: / if you don't want your content used for AI training." },
+                    { q: 'Where do I upload robots.txt?', a: 'Your website root — it must be at yourdomain.com/robots.txt.' },
+                    { q: 'Does Disallow remove pages from Google?', a: 'No — it blocks crawling only. Use a noindex tag or Search Console to remove indexed pages.' },
+                    { q: 'Should I include my sitemap URL?', a: 'Yes — add Sitemap: https://yourdomain.com/sitemap.xml at the bottom of the file.' },
+                    { q: 'What\'s the difference between Allow and Disallow?', a: 'Disallow blocks paths from crawlers. Allow explicitly permits paths within a blocked section.' },
                 ]}
                 relatedTools={[
                     { name: 'XML Sitemap Generator', href: '/xml-sitemap-generator', desc: 'Create a sitemap.xml to reference in your robots.txt.' },

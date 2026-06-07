@@ -81,11 +81,10 @@ export default function UrlSlugGeneratorPage() {
                     { title: 'Copy the Slug or Full URL', desc: 'Copy the slug alone or the full URL with your base domain. Use it in your CMS, WordPress, or any website.' },
                 ]}
                 faqs={[
-                    { q: 'What is a URL slug?', a: 'A URL slug is the part of a URL that identifies a specific page in a human-readable way. For example, in https://example.com/seo-tips, the slug is "seo-tips".' },
-                    { q: 'Should I use hyphens or underscores in URLs?', a: 'Always use hyphens. Google treats hyphens as word separators, so "seo-tips" is read as "seo tips". Underscores ("seo_tips") are treated as one word and hurt readability and SEO.' },
-                    { q: 'Should I remove stop words from URLs?', a: "Stop words like 'the', 'and', 'of' generally don't add SEO value to URLs. Removing them makes URLs shorter and cleaner. However, if removing them changes the meaning, keep them." },
-                    { q: 'How long should a URL slug be?', a: 'Aim for 3–5 words, ideally under 60 characters. Shorter slugs are easier to share, remember, and rank. Include your main keyword at the start.' },
-                    { q: 'Do URL slugs affect SEO?', a: 'Yes. Clean, keyword-rich URL slugs are a minor but real ranking factor. They also improve click-through rates as users can read what the page is about directly from the URL.' },
+                    { q: 'Hyphens or underscores?', a: 'Use hyphens. Google reads them as spaces. Underscores don\'t.' },
+                    { q: 'Should I remove stop words?', a: 'Usually yes — shorter URLs are cleaner. Keep them if meaning changes.' },
+                    { q: 'How long should a slug be?', a: '3–5 words, under 60 characters. Put your main keyword first.' },
+                    { q: 'What characters are allowed?', a: 'Lowercase letters, numbers, and hyphens only. Special characters are removed automatically.' },
                 ]}
                 relatedTools={[
                     { name: 'SERP Preview Tool', href: '/serp-preview-tool', desc: 'Preview how your URL and title look in Google.' },
