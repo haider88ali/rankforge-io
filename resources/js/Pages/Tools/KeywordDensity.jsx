@@ -39,8 +39,6 @@ export default function KeywordDensityPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.keywordDensity}
-                title="Free Keyword Density Checker"
-                description="Paste your content to analyze keyword frequency, density percentages, and word count. Get smart suggestions to optimize text for SEO without keyword stuffing."
                 breadcrumb="Keyword Density Checker"
                 howTo={[
                     { title: 'Paste Your Content', desc: 'Copy your article, blog post, or any web page text and paste it into the text area below.' },

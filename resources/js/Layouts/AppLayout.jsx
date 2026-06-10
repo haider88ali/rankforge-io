@@ -204,7 +204,7 @@ export default function AppLayout({ children }) {
             {/* ── Footer ── */}
             <footer className="bg-gray-950 text-gray-400 mt-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-10">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-10 mb-12">
                         {/* Brand col — spans 2 */}
                         <div className="lg:col-span-2">
                             <Link href="/" className="flex items-center gap-2.5 mb-4">
@@ -253,11 +253,25 @@ export default function AppLayout({ children }) {
                                 <li><Link href="/url-slug-generator" className="hover:text-white transition-colors">URL Slug Generator</Link></li>
                             </ul>
                         </div>
+
+                        {/* Company */}
+                        <div>
+                            <h3 className="text-white font-semibold text-sm mb-5">Company</h3>
+                            <ul className="space-y-3 text-sm">
+                                <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
+                                <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+                                <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div className="border-t border-gray-800 pt-7 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-600">
                         <p>© 2026 SeoKitHub — All rights reserved.</p>
-                        <p>Built for marketers, writers & developers.</p>
+                        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
+                            <Link href="/about" className="hover:text-gray-400 transition-colors">About</Link>
+                            <Link href="/privacy-policy" className="hover:text-gray-400 transition-colors">Privacy Policy</Link>
+                            <Link href="/contact" className="hover:text-gray-400 transition-colors">Contact</Link>
+                        </div>
                     </div>
                 </div>
             </footer>

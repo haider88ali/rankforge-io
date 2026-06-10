@@ -41,8 +41,6 @@ export default function RobotsTxtPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.robotsTxt}
-                title="Free Robots.txt Generator"
-                description="Create a properly formatted robots.txt file in seconds. Add user-agent rules, block paths, set crawl-delay, and include your sitemap URL — copy or download instantly."
                 breadcrumb="Robots.txt Generator"
                 howTo={[
                     { title: 'Configure User-Agent Rules', desc: 'Choose which bots to target (all bots with * or specific ones like Googlebot). Add the paths you want to disallow or allow.' },

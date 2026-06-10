@@ -72,8 +72,6 @@ export default function UrlSlugGeneratorPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.urlSlugGenerator}
-                title="Free URL Slug Generator"
-                description="Convert any page title into a clean, SEO-friendly URL slug. Customize separator, remove stop words, set max length, and preview the full URL instantly."
                 breadcrumb="URL Slug Generator"
                 howTo={[
                     { title: 'Enter Your Page Title', desc: 'Type or paste your blog post title, page title, or any text you want to turn into a URL slug.' },

@@ -53,8 +53,6 @@ export default function SchemaMarkupPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.schemaMarkup}
-                title="Free Schema Markup Generator"
-                description="Generate valid JSON-LD structured data for FAQ, Product, Article, and Organization schemas. Copy the code and paste into your HTML to unlock Google rich results."
                 breadcrumb="Schema Markup Generator"
                 howTo={[
                     { title: 'Choose Schema Type', desc: 'Select the type of schema that matches your page — FAQ, Product, Article, or Organization.' },

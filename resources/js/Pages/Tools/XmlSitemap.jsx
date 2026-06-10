@@ -38,8 +38,6 @@ export default function XmlSitemapPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.xmlSitemap}
-                title="Free XML Sitemap Generator"
-                description="Create a valid sitemap.xml for your website. Add URLs, set priority and update frequency, then download and submit to Google Search Console — completely free."
                 breadcrumb="XML Sitemap Generator"
                 howTo={[
                     { title: 'Add Your URLs', desc: 'Enter each page URL one by one, or use the bulk import to paste multiple URLs at once.' },

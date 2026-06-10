@@ -37,8 +37,6 @@ export default function BacklinkCheckerPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.backlinkChecker}
-                title="Free Backlink Checker — Check Backlinks for Any Website"
-                description="Search and check backlinks for any domain. Analyze HTTPS, sitemap, robots.txt, and indexed pages — then access free backlink data from Ahrefs, Moz & Majestic. No signup."
                 breadcrumb="Backlink Checker"
                 howTo={[
                     { title: 'Enter a Domain', desc: 'Type any domain name (e.g. example.com) — no need to include https://.' },

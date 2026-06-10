@@ -80,5 +80,23 @@ return [
             'description' => 'Compress JPG, PNG & WebP images free in your browser — no upload to servers. Drag & drop, adjust quality, download smaller files instantly.',
             'keywords'    => $appendKeywords('image compressor, compress image online, image compressor free, reduce image size, jpg compressor, png compressor, webp compressor, image optimizer, compress photo online, reduce file size image, image compression tool, shrink image, compress image without losing quality, bulk image compressor, browser image compressor, seo image optimization'),
         ],
+
+        '/about' => [
+            'title'       => 'About SeoKitHub – Free Online SEO Tools',
+            'description' => 'SeoKitHub offers 10 free SEO tools for marketers and developers — backlink checker, SEO audit, schema markup, sitemap generator and more. No sign up required.',
+            'keywords'    => $appendKeywords('about seokithub, seokithub, seo kit hub, free seo tools, seo toolkit, online seo tools'),
+        ],
+
+        '/privacy-policy' => [
+            'title'       => 'Privacy Policy – SeoKitHub',
+            'description' => 'SeoKitHub privacy policy. Browser tools keep your data on your device. No accounts, no ad tracking, minimal server logs.',
+            'keywords'    => 'seokithub privacy policy, privacy policy, data policy',
+        ],
+
+        '/contact' => [
+            'title'       => 'Contact SeoKitHub – Feedback & Support',
+            'description' => 'Contact SeoKitHub for feedback, bug reports, feature requests, or partnership inquiries.',
+            'keywords'    => 'contact seokithub, seokithub support, seokithub feedback',
+        ],
     ],
 ];

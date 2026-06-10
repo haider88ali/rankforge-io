@@ -48,8 +48,6 @@ export default function JsonFormatterPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.jsonFormatter}
-                title="Free JSON Formatter & Validator"
-                description="Beautify, minify, and validate JSON instantly in your browser. Clear error messages for invalid JSON — nothing sent to a server. 100% private and free."
                 breadcrumb="JSON Formatter"
                 howTo={[
                     { title: 'Paste Your JSON', desc: 'Paste raw, minified, or malformed JSON into the input editor on the left.' },

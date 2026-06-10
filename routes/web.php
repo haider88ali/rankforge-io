@@ -8,6 +8,11 @@ use App\Http\Controllers\BacklinkController;
 
 Route::get('/', fn() => Inertia::render('Home'));
 
+// Trust pages
+Route::get('/about',           fn() => Inertia::render('About'));
+Route::get('/privacy-policy', fn() => Inertia::render('Privacy'));
+Route::get('/contact',         fn() => Inertia::render('Contact'));
+
 // Tool API endpoints (zero AI cost)
 Route::post('/api/seo/audit',       [SeoAuditController::class, 'audit']);
 Route::post('/api/backlinks/check', [BacklinkController::class, 'check']);
@@ -47,6 +52,9 @@ Route::get('/sitemap.xml', function () {
         ['loc' => $base . '/url-slug-generator',         'priority' => '0.8', 'changefreq' => 'monthly'],
         ['loc' => $base . '/json-formatter',             'priority' => '0.7', 'changefreq' => 'monthly'],
         ['loc' => $base . '/image-compressor',           'priority' => '0.7', 'changefreq' => 'monthly'],
+        ['loc' => $base . '/about',                      'priority' => '0.5', 'changefreq' => 'yearly'],
+        ['loc' => $base . '/privacy-policy',             'priority' => '0.3', 'changefreq' => 'yearly'],
+        ['loc' => $base . '/contact',                    'priority' => '0.3', 'changefreq' => 'yearly'],
     ];
 
     $xml = '<?xml version="1.0" encoding="UTF-8"?>' . PHP_EOL;

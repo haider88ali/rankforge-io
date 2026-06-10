@@ -77,8 +77,6 @@ export default function SerpPreviewPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.serpPreview}
-                title="Free SERP Preview Tool"
-                description="See exactly how your page title and meta description appear in Google — on desktop and mobile. Check pixel widths so nothing gets cut off before you publish."
                 breadcrumb="SERP Preview Tool"
                 howTo={[
                     { title: 'Enter Your Page Details', desc: 'Fill in your page title, URL, and meta description. The preview updates in real time as you type.' },

@@ -90,7 +90,9 @@ export default function ToolPageLayout({
     seoContent = [],
 }) {
     const { url } = usePage();
-    const schemas = buildSchemas({ title, description, breadcrumb, faqs, url });
+    const displayTitle = seoTitle || title;
+    const displayDescription = seoDescription || description;
+    const schemas = buildSchemas({ title: displayTitle, description: displayDescription, breadcrumb, faqs, url });
 
     return (
         <>
@@ -115,9 +117,9 @@ export default function ToolPageLayout({
                     </nav>
 
                     <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-                        {title}
+                        {displayTitle}
                     </h1>
-                    <p className="text-lg text-gray-500 max-w-2xl leading-relaxed">{description}</p>
+                    <p className="text-lg text-gray-500 max-w-2xl leading-relaxed">{displayDescription}</p>
                 </div>
             </section>
 

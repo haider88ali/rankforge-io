@@ -84,8 +84,6 @@ export default function SeoAuditPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.seoAudit}
-                title="Free Website SEO Audit Tool"
-                description="Enter any URL for a full on-page SEO analysis — title tags, meta descriptions, headings, schema, SSL, robots.txt, performance and 17 checks. 100% free, no login."
                 breadcrumb="SEO Audit Tool"
                 howTo={[
                     { title: 'Enter Any URL', desc: 'Type or paste the full URL of the page you want to audit (e.g. https://example.com/page).' },

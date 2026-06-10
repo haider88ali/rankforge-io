@@ -41,8 +41,6 @@ export default function ImageCompressorPage() {
         <AppLayout>
             <ToolPageLayout
                 {...TOOL_SEO.imageCompressor}
-                title="Free Online Image Compressor"
-                description="Compress JPG, PNG, and WebP images in your browser — no server upload. Adjust quality and max dimensions, then download optimized images instantly."
                 breadcrumb="Image Compressor"
                 howTo={[
                     { title: 'Drag & Drop Your Images', desc: 'Drop your JPG, PNG, or WebP files onto the upload zone, or click to browse and select files.' },
