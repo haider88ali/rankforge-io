@@ -158,9 +158,9 @@ export default function Home() {
     return (
         <AppLayout>
             <SeoHead
-                title="Free SEO Tools Online – Backlink Checker, Audit & More"
-                description="10 free SEO tools — backlink checker, website audit, schema markup, sitemap & robots.txt generator. No sign up, no limits. Start optimizing now."
-                keywords="seo tools, free seo tools, seo tool, free seo tool, seo tools online, online seo tools, seo kit, free seo kit, seo kit tools, backlink checker, seo audit tool, schema markup generator, sitemap generator, robots txt generator, seokithub, seo kit hub, seo tools no sign up, best free seo tools, seo tools for website, seo tools for marketers"
+                title="Free SEO Tools Online No Sign Up – 10 Tools for Website Optimization"
+                description="10 free SEO tools with no account required — website SEO audit, schema markup generator, robots.txt, XML sitemap, SERP preview & more. 100% free, instant results."
+                keywords="free seo tools no sign up, free seo tools online no login, free seo tools no account, seo tools free no registration, free online seo tools no signup, best free seo tools no login, free seo toolkit online, free website seo tools, seo tools for beginners free, free seo checker no signup, all seo tools free online, seo tools no account required, free seo optimization tools, website seo tools free online, seo tools 100 percent free"
             />
             <JsonLd schemas={homeSchemas} />
 

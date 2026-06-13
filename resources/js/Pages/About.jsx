@@ -6,8 +6,8 @@ export default function About() {
     return (
         <AppLayout>
             <StaticPageLayout
-                title="About SeoKitHub"
-                description="SeoKitHub is a free online SEO toolkit built for marketers, bloggers, and developers — no sign up, no limits."
+                title="About SeoKitHub – Free SEO Tools Online No Sign Up"
+                description="SeoKitHub is a free online SEO toolkit with 10 tools for marketers, bloggers & developers — no account, no limits, no AI costs. Learn about our mission."
                 breadcrumb="About"
             >
                 <h2>What is SeoKitHub?</h2>

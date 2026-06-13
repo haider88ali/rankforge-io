@@ -9,8 +9,8 @@ export default function Contact() {
     return (
         <AppLayout>
             <StaticPageLayout
-                title="Contact SeoKitHub"
-                description="Get in touch for feedback, bug reports, or partnership inquiries."
+                title="Contact SeoKitHub – Free SEO Tools Support"
+                description="Get in touch with SeoKitHub for feedback, bug reports, or partnership inquiries. We're here to help with our free SEO tools."
                 breadcrumb="Contact"
             >
                 <p>
