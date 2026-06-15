@@ -3,6 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        @php
+            $canonicalBase = rtrim(config('app.url'), '/');
+            $canonicalPath = request()->getPathInfo();
+            $serverCanonical = $canonicalBase . ($canonicalPath === '/' ? '' : $canonicalPath);
+        @endphp
+        <link rel="canonical" href="{{ $serverCanonical }}">
         @if ($pageSeo ?? null)
             <title>{{ $pageSeo['title'] }}</title>
             <meta name="description" content="{{ $pageSeo['description'] }}">
@@ -10,12 +16,11 @@
             <meta name="author" content="{{ config('seo_pages.site_name', 'SeoKitHub') }}">
             <meta name="publisher" content="{{ config('seo_pages.site_name', 'SeoKitHub') }}">
             <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-            <link rel="canonical" href="{{ $pageSeo['canonical'] }}">
             <meta property="og:type" content="website">
             <meta property="og:site_name" content="{{ config('seo_pages.site_name', 'SeoKitHub') }}">
             <meta property="og:title" content="{{ $pageSeo['og_title'] }}">
             <meta property="og:description" content="{{ $pageSeo['description'] }}">
-            <meta property="og:url" content="{{ $pageSeo['canonical'] }}">
+            <meta property="og:url" content="{{ $serverCanonical }}">
             <meta property="og:image" content="{{ config('seo_pages.og_image') }}">
             <meta property="og:locale" content="en_US">
             <meta name="twitter:card" content="summary">

@@ -2,8 +2,9 @@
 
 export const TOOL_SEO = {
     backlinkChecker: {
-        seoTitle: 'Free Backlink Checker No Sign Up – Domain SEO Health Tool',
-        seoDescription: 'Check any domain\'s SEO health free — no account needed. Instantly verify HTTPS, sitemap, robots.txt, meta tags & indexed pages. Works on any website in seconds.',
+        title: 'Free Backlink Checker – Analyze Any Domain',
+        seoTitle: 'Free Backlink Checker – No Sign Up Required',
+        seoDescription: 'Check any domain\'s SEO health free — no sign up. Verify HTTPS, sitemap, robots.txt & meta tags instantly. Domain analysis tool, no account required.',
         seoKeywords: 'free backlink checker no sign up, domain seo health checker, check website seo health free, domain health checker online, free domain checker no login, website health check seo, backlink checker no account, check domain seo free, seo health check tool free, website seo checker no signup, free domain analysis tool, check website backlinks free no signup, domain authority checker free, website link checker free, seo domain checker online free',
         seoContent: [
             {
@@ -35,8 +36,9 @@ export const TOOL_SEO = {
     },
 
     seoAudit: {
-        seoTitle: 'Free SEO Audit Tool No Sign Up – Check 17 On-Page Factors Instantly',
-        seoDescription: 'Run a free on-page SEO audit on any URL — no account required. Checks title, meta description, H1, schema, SSL, canonical & 11 more factors. Instant score report.',
+        title: 'Free Website SEO Audit Tool',
+        seoTitle: 'Free SEO Audit Tool – Check 17 Factors Free',
+        seoDescription: 'Free on-page SEO audit — no sign up. Checks title, meta, H1, schema, SSL & 12 more factors. Get your instant SEO score report for any URL.',
         seoKeywords: 'free seo audit tool no sign up, on page seo audit free, website seo audit no login, free seo checker no account, seo score checker free online, check seo of website free, free website seo analysis tool, on page seo checker free, seo audit report free online, technical seo checker free, free seo analysis no signup, website seo score free, instant seo audit free, seo checker tool free no registration, check website seo issues free',
         seoContent: [
             {
@@ -61,8 +63,9 @@ export const TOOL_SEO = {
     },
 
     schemaMarkup: {
-        seoTitle: 'Free Schema Markup Generator – JSON-LD for Google Rich Results [No Login]',
-        seoDescription: 'Generate valid JSON-LD schema markup free — no signup. Create FAQ, Product, Article & Organization structured data. Copy & paste into your site for Google rich results.',
+        title: 'Free Schema Markup Generator',
+        seoTitle: 'Free Schema Markup Generator – No Login',
+        seoDescription: 'Generate valid JSON-LD schema markup free — no signup. Create FAQ, Product, Article & Organization structured data for Google rich results instantly.',
         seoKeywords: 'free schema markup generator no signup, json ld generator free online, faq schema generator free, structured data generator no login, google rich results generator free, json ld schema creator free, schema markup tool free online, faq json ld generator, product schema markup generator free, article schema generator free, organization schema markup free, structured data tool free no signup, schema.org generator free, google structured data markup tool, rich snippet generator free',
         seoContent: [
             {
@@ -80,7 +83,8 @@ export const TOOL_SEO = {
     },
 
     robotsTxt: {
-        seoTitle: 'Free Robots.txt Generator – Create & Download robots.txt File [No Signup]',
+        title: 'Free Robots.txt Generator',
+        seoTitle: 'Free Robots.txt Generator – No Sign Up',
         seoDescription: 'Create a robots.txt file free in seconds — no account needed. Set allow/disallow rules, add sitemap URL & crawl-delay. Copy or download your file instantly.',
         seoKeywords: 'free robots txt generator no signup, create robots txt file free, robots txt generator online free, how to create robots txt file free, robots txt builder free online, generate robots txt no login, robots txt maker free, robots txt file creator free, custom robots txt generator, robots txt generator download free, create robots.txt online free, robots txt disallow generator, robots txt allow all generator, seo robots txt file free, wordpress robots txt generator free',
         seoContent: [
@@ -99,7 +103,8 @@ export const TOOL_SEO = {
     },
 
     xmlSitemap: {
-        seoTitle: 'Free XML Sitemap Generator – Create sitemap.xml Online [No Login]',
+        title: 'Free XML Sitemap Generator',
+        seoTitle: 'Free XML Sitemap Generator – No Sign Up',
         seoDescription: 'Generate a sitemap.xml file free online — no account required. Add URLs, set priority & changefreq, download and submit to Google Search Console in minutes.',
         seoKeywords: 'free xml sitemap generator no signup, create sitemap xml online free, sitemap generator free no login, xml sitemap creator free online, generate sitemap xml free, free sitemap xml builder no account, sitemap.xml generator free download, how to create xml sitemap free, google sitemap generator free, submit sitemap to google free tool, free online sitemap builder, website sitemap generator free, sitemap maker free no signup, xml sitemap tool free online, create sitemap for google free',
         seoContent: [
@@ -118,8 +123,9 @@ export const TOOL_SEO = {
     },
 
     serpPreview: {
-        seoTitle: 'Free SERP Preview Tool – See How Your Page Looks on Google [No Login]',
-        seoDescription: 'Preview exactly how your page appears in Google search results before publishing. Check title & meta description length on desktop & mobile. Free, instant, no signup.',
+        title: 'Free SERP Preview Tool',
+        seoTitle: 'Free SERP Preview Tool – No Login Required',
+        seoDescription: 'Preview how your page looks on Google before publishing. Check title & meta description pixel width on desktop & mobile. Free SERP simulator, no sign up.',
         seoKeywords: 'free serp preview tool no signup, google search result preview tool free, meta title preview tool free, meta description preview free, google snippet preview tool free, serp simulator free online, how will my page look on google free, title tag length checker free, seo snippet preview tool free, google serp preview no login, search result preview tool online, serp preview checker free, title meta preview tool, google listing preview free, check how website looks on google free',
         seoContent: [
             {
@@ -133,8 +139,9 @@ export const TOOL_SEO = {
     },
 
     keywordDensity: {
-        seoTitle: 'Free Keyword Density Checker – Analyze Content Keywords Online [No Signup]',
-        seoDescription: 'Check keyword density & word frequency free in your browser — no account needed. Spot keyword stuffing, see top keywords & percentages instantly. Paste text & analyze.',
+        title: 'Free Keyword Density Checker',
+        seoTitle: 'Free Keyword Density Checker – No Sign Up',
+        seoDescription: 'Check keyword density & word frequency free — no sign up. Spot keyword stuffing, see top keywords & percentages. Paste your content and analyze instantly.',
         seoKeywords: 'free keyword density checker no signup, keyword density checker online free, check keyword density free, keyword frequency checker free online, keyword density analyzer free, keyword stuffing checker free, word frequency counter online free, content keyword analyzer free, keyword density calculator free online, check keyword percentage free, seo keyword density tool free, keyword density tool no login, analyze keyword density free, keyword count checker free, text keyword density analyzer free',
         seoContent: [
             {
@@ -148,7 +155,8 @@ export const TOOL_SEO = {
     },
 
     urlSlugGenerator: {
-        seoTitle: 'Free URL Slug Generator – Create SEO-Friendly URLs from Title [No Login]',
+        title: 'Free URL Slug Generator',
+        seoTitle: 'Free URL Slug Generator – SEO-Friendly URLs',
         seoDescription: 'Convert any title to a clean SEO-friendly URL slug free — no account needed. Remove stop words, set separator & preview your full URL instantly.',
         seoKeywords: 'free url slug generator no signup, seo friendly url generator free, convert title to url slug free, url slug maker free online, blog post slug generator free, wordpress slug generator free, clean url generator free, permalink generator free online, seo url creator free, title to url converter free, remove stop words from url free, url slug tool free no login, create seo url free, post slug maker free, url friendly title converter free',
         seoContent: [
@@ -163,8 +171,9 @@ export const TOOL_SEO = {
     },
 
     jsonFormatter: {
-        seoTitle: 'Free JSON Formatter & Validator Online – Beautify JSON [No Login Required]',
-        seoDescription: 'Format, beautify, minify & validate JSON free in your browser — no signup. Fix syntax errors with line numbers. Your data never leaves your device. Instant results.',
+        title: 'Free JSON Formatter & Validator',
+        seoTitle: 'Free JSON Formatter & Validator – No Login',
+        seoDescription: 'Format, beautify, minify & validate JSON free — no signup. Fix syntax errors with line numbers. Data stays in your browser, never uploaded. Instant results.',
         seoKeywords: 'free json formatter online no signup, json formatter online free no login, json validator free online, beautify json online free, json pretty print free online, json minifier free online, validate json free online, fix json errors free, json beautifier online free, json syntax checker free, format json online free no account, json lint free online, json viewer free online, minify json online free, json formatter no registration',
         seoContent: [
             {
@@ -178,8 +187,9 @@ export const TOOL_SEO = {
     },
 
     imageCompressor: {
-        seoTitle: 'Free Image Compressor Online – Compress JPG PNG WebP [No Upload, No Signup]',
-        seoDescription: 'Compress JPG, PNG & WebP images free in your browser — no server upload, no account. Drag & drop, adjust quality, download smaller files instantly. 100% private.',
+        title: 'Free Image Compressor – No Upload Required',
+        seoTitle: 'Free Image Compressor – No Upload Required',
+        seoDescription: 'Compress JPG, PNG & WebP images free — no upload to servers, no sign up. Drag & drop, adjust quality & download smaller files instantly. 100% private.',
         seoKeywords: 'free image compressor online no signup, compress image online free no upload, compress jpg online free no login, compress png online free no account, reduce image size free online, image compressor no upload to server, browser image compressor free, compress photo online free no signup, reduce image file size free online, webp compressor free online, compress image without quality loss free, image optimizer free online no login, shrink image size free online, bulk image compressor free, compress images for website free',
         seoContent: [
             {

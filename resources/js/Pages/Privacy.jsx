@@ -9,6 +9,7 @@ export default function Privacy() {
                 title="Privacy Policy"
                 description="How SeoKitHub handles your data — browser-based tools, minimal server logs, no account required."
                 breadcrumb="Privacy Policy"
+                path="/privacy-policy"
             >
                 <p><em>Last updated: June 2026</em></p>
 

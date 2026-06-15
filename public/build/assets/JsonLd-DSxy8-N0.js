@@ -1,0 +1,1 @@
+import{a as e,o as t}from"./app-DEzkl9tI.js";var n=t(e(),1);function r({schemas:e=[]}){return(0,n.useEffect)(()=>{let t=e.map(e=>{let t=document.createElement(`script`);return t.type=`application/ld+json`,t.textContent=JSON.stringify(e),document.head.appendChild(t),t});return()=>{t.forEach(e=>{e.parentNode&&e.parentNode.removeChild(e)})}},[JSON.stringify(e)]),null}export{r as t};

@@ -12,6 +12,7 @@ export default function Contact() {
                 title="Contact SeoKitHub – Free SEO Tools Support"
                 description="Get in touch with SeoKitHub for feedback, bug reports, or partnership inquiries. We're here to help with our free SEO tools."
                 breadcrumb="Contact"
+                path="/contact"
             >
                 <p>
                     We'd love to hear from you. Whether you found a bug, have a feature idea, or want to list SeoKitHub on your directory — reach out anytime.

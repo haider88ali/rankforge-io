@@ -2,10 +2,10 @@ import { Link } from '@inertiajs/react';
 import { ChevronRight } from 'lucide-react';
 import SeoHead from '@/Components/SeoHead';
 
-export default function StaticPageLayout({ title, description, breadcrumb, children }) {
+export default function StaticPageLayout({ title, description, breadcrumb, path, children }) {
     return (
         <>
-            <SeoHead title={title} description={description} />
+            <SeoHead title={title} description={description} path={path} />
             <section className="bg-gradient-to-b from-gray-50 to-white border-b border-gray-100 pt-10 pb-12 px-4">
                 <div className="max-w-3xl mx-auto">
                     <nav className="flex items-center gap-1.5 text-xs text-gray-400 mb-6" aria-label="Breadcrumb">

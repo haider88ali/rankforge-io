@@ -91,6 +91,7 @@ export default function ToolPageLayout({
 }) {
     const { url } = usePage();
     const displayTitle = seoTitle || title;
+    const h1Title = title || seoTitle;
     const displayDescription = seoDescription || description;
     const schemas = buildSchemas({ title: displayTitle, description: displayDescription, breadcrumb, faqs, url });
 
@@ -100,6 +101,7 @@ export default function ToolPageLayout({
                 title={seoTitle || title}
                 description={seoDescription || description}
                 keywords={seoKeywords}
+                path={url.split('?')[0]}
                 type="website"
             />
             <JsonLd schemas={schemas} />
@@ -117,7 +119,7 @@ export default function ToolPageLayout({
                     </nav>
 
                     <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4 leading-tight">
-                        {displayTitle}
+                        {h1Title}
                     </h1>
                     <p className="text-lg text-gray-500 max-w-2xl leading-relaxed">{displayDescription}</p>
                 </div>
