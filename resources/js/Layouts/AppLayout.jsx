@@ -39,7 +39,7 @@ const megaMenu = [
 const featuredNav = [
     { name: 'SEO Audit',        href: '/seo-audit-tool' },
     { name: 'Schema Generator', href: '/schema-markup-generator' },
-    { name: 'Robots.txt',       href: '/robots-txt-generator' },
+    { name: 'Backlink Checker', href: '/backlink-checker' },
     { name: 'JSON Formatter',   href: '/json-formatter' },
     { name: 'Image Compressor', href: '/image-compressor' },
 ];
