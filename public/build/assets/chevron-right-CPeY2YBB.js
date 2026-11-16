@@ -1,1 +1,0 @@
-import{v as e}from"./SeoHead-6cg8JMBC.js";var t=e(`chevron-right`,[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]);export{t};
