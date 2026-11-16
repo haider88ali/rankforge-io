@@ -49,7 +49,7 @@ class Translator extends NamespacedItemResolver implements TranslatorContract
     /**
      * The message selector.
      *
-     * @var \Illuminate\Translation\MessageSelector
+     * @var \Illuminate\Translation\MessageSelector|null
      */
     protected $selector;
 
@@ -187,6 +187,44 @@ class Translator extends NamespacedItemResolver implements TranslatorContract
         // that will be quick to spot in the UI if language keys are wrong or missing
         // from the application's language files. Otherwise we can return the line.
         return $this->makeReplacements($line ?: $key, $replace);
+    }
+
+    /**
+     * Get the specified string translation value.
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function string(string $key, array $replace = [], ?string $locale = null, bool $fallback = true): string
+    {
+        $value = $this->get($key, $replace, $locale, $fallback);
+
+        if (! is_string($value)) {
+            throw new InvalidArgumentException(
+                sprintf('Translation value for key [%s] must be a string, %s given.', $key, gettype($value))
+            );
+        }
+
+        return $value;
+    }
+
+    /**
+     * Get the specified array translation value.
+     *
+     * @return array<array-key, mixed>
+     *
+     * @throws \InvalidArgumentException
+     */
+    public function array(string $key, array $replace = [], ?string $locale = null, bool $fallback = true): array
+    {
+        $value = $this->get($key, $replace, $locale, $fallback);
+
+        if (! is_array($value)) {
+            throw new InvalidArgumentException(
+                sprintf('Translation value for key [%s] must be an array, %s given.', $key, gettype($value))
+            );
+        }
+
+        return $value;
     }
 
     /**
@@ -537,7 +575,7 @@ class Translator extends NamespacedItemResolver implements TranslatorContract
      */
     public function setLocale($locale)
     {
-        if (Str::contains($locale, ['/', '\\'])) {
+        if (Str::contains($locale, ['/', '\\', '..', "\0"])) {
             throw new InvalidArgumentException('Invalid characters present in locale.');
         }
 
