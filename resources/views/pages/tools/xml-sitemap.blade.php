@@ -25,7 +25,7 @@
         :seoContent="[
             ['heading' => 'Why You Need an XML Sitemap', 'paragraphs' => [
                 'An XML sitemap lists all important pages on your website and helps search engines discover and index them faster. While Google can crawl sites without a sitemap, having one is especially important for new websites, large sites, and pages with few internal links.',
-                'SeoKitHub\'s XML sitemap generator creates a standards-compliant sitemap.xml file you can upload to your server root and submit to Google Search Console and Bing Webmaster Tools.',
+                'SeoKitHub\'s XML sitemap generator creates a standards-compliant sitemap.xml file you can upload to your server root and submit to Google Search Console and Bing Webmaster Tools. Pair it with <a href=\'/schema-markup-generator\'>schema markup on your pages</a> and <a href=\'/robots-txt-generator\'>control over what Google crawls</a> for a complete technical setup.',
             ]],
             ['heading' => 'How to Submit Your Sitemap to Google', 'paragraphs' => [
                 'After generating and uploading sitemap.xml to your website, open Google Search Console → Sitemaps → enter the URL (e.g. https://yoursite.com/sitemap.xml) → Submit. Google will begin crawling the listed URLs, usually within a few days for new sites.',

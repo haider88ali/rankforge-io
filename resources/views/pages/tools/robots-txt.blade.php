@@ -28,7 +28,7 @@
                 'Our free robots.txt generator helps you create a properly formatted file with user-agent rules, allow/disallow directives, sitemap references, and optional crawl-delay settings — without writing syntax by hand.',
             ]],
             ['heading' => 'Robots.txt Best Practices', 'paragraphs' => [
-                'Always include your XML sitemap URL in robots.txt. Block admin panels, duplicate content, and internal search result pages. Never use robots.txt to hide sensitive data — use authentication instead. Test your file after publishing using Google Search Console\'s robots.txt tester.',
+                'Always include your XML sitemap URL in robots.txt. Block admin panels, duplicate content, and internal search result pages. Never use robots.txt to hide sensitive data — use authentication instead. Test your file after publishing using Google Search Console\'s robots.txt tester. Once it\'s live, <a href=\'/xml-sitemap-generator\'>generate an XML sitemap</a> to reference in it, or <a href=\'/schema-markup-generator\'>add schema markup to your pages</a> next.',
             ]],
         ]"
     >

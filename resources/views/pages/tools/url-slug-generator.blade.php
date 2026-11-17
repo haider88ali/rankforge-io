@@ -25,7 +25,7 @@
         :seoContent="[
             ['heading' => 'Why SEO-Friendly URL Slugs Matter', 'paragraphs' => [
                 'URL slugs are the readable part of a web address (e.g. /free-backlink-checker). Clean, keyword-rich slugs help users understand page content before clicking and give search engines a clear signal about page topic. Avoid long strings of numbers, special characters, and unnecessary stop words.',
-                'Our URL slug generator converts any title into a clean, lowercase, hyphenated slug optimized for SEO — with options to remove stop words and limit length.',
+                'Our URL slug generator converts any title into a clean, lowercase, hyphenated slug optimized for SEO — with options to remove stop words and limit length. Before you publish, <a href=\'/keyword-density-checker\'>check keyword density on the page</a> the slug belongs to.',
             ]],
         ]"
     >

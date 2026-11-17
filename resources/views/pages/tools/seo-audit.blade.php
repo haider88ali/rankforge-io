@@ -28,12 +28,12 @@
             'heading' => 'What Does Our SEO Audit Tool Check?',
             'paragraphs' => [
                 'Our free website SEO audit analyzes 17 on-page and technical SEO factors across six categories: On-Page SEO, Technical SEO, Social & Sharing, Content Quality, Crawlability, and Performance. You get a clear pass/warning/fail report plus an overall SEO score out of 100.',
-                'Enter any public URL — your own site, a client project, or a competitor page — and receive actionable insights within seconds. No login required.',
+                'Enter any public URL — your own site, a client project, or a competitor page — and receive actionable insights within seconds. No login required. Once your on-page checks are clean, <a href=\'/backlink-checker\'>check your backlink profile</a> or <a href=\'/serp-preview-tool\'>preview your Google snippet</a> to round out the picture.',
             ],
         ],
         [
             'heading' => 'Why Run a Free SEO Audit?',
-            'paragraphs' => ['Regular SEO audits catch issues before they hurt rankings. Common problems our tool finds include missing meta descriptions, duplicate title tags, broken heading structure, missing schema markup, slow server response times, and blocked crawl paths in robots.txt.'],
+            'paragraphs' => ['Regular SEO audits catch issues before they hurt rankings. Common problems our tool finds include missing meta descriptions, duplicate title tags, broken heading structure, missing schema markup, slow server response times, and blocked crawl paths in robots.txt. Head <a href=\'/\'>back to all free SEO tools</a> to keep optimizing.'],
             'list' => [
                 'Title tag and meta description optimization',
                 'H1/H2 heading structure analysis',

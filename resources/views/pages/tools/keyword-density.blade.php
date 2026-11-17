@@ -25,7 +25,7 @@
         :seoContent="[
             ['heading' => 'What Is Keyword Density?', 'paragraphs' => [
                 'Keyword density is the percentage of times a target keyword appears in your content relative to total word count. While Google no longer uses a fixed ideal density, analyzing keyword frequency helps you avoid over-optimization (keyword stuffing) and ensure your primary topic is clear to both readers and search engines.',
-                'SeoKitHub\'s keyword density checker analyzes your text, shows top keywords by frequency, calculates density percentages, and flags potential stuffing issues.',
+                'SeoKitHub\'s keyword density checker analyzes your text, shows top keywords by frequency, calculates density percentages, and flags potential stuffing issues. Once your content is balanced, <a href=\'/url-slug-generator\'>clean up your URL slug</a> to match.',
             ]],
         ]"
     >

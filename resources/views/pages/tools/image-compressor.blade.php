@@ -25,7 +25,7 @@
         :seoContent="[
             ['heading' => 'Why Image Compression Matters for SEO', 'paragraphs' => [
                 'Page speed is a confirmed Google ranking factor, and images are often the largest files on a webpage. Compressing images before upload can reduce page load time by 50-80% without visible quality loss — improving Core Web Vitals scores and search rankings.',
-                'SeoKitHub\'s image compressor runs entirely in your browser using the Canvas API. Drag and drop JPG, PNG, or WebP files, adjust quality, and download compressed versions instantly. No server upload means your images stay private.',
+                'SeoKitHub\'s image compressor runs entirely in your browser using the Canvas API. Drag and drop JPG, PNG, or WebP files, adjust quality, and download compressed versions instantly. No server upload means your images stay private. Working with image metadata or alt-text JSON? <a href=\'/json-formatter\'>validate your JSON</a> before you ship it.',
             ]],
         ]"
     >

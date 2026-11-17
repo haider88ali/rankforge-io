@@ -28,7 +28,7 @@
                 'SeoKitHub\'s free backlink checker lets you analyze any domain instantly. Enter a website URL and we check critical SEO health signals — SSL/HTTPS, robots.txt, XML sitemap, meta tags, and indexed page count — then point you to trusted free sources for full backlink data.',
             ]],
             ['heading' => 'Why Check Backlinks for SEO?', 'paragraphs' => [
-                'Monitoring backlinks helps you understand your link profile, spot toxic links, track competitor strategies, and find new link-building opportunities. Whether you run a blog, e-commerce store, or agency client site, regular backlink checks should be part of your SEO workflow.',
+                'Monitoring backlinks helps you understand your link profile, spot toxic links, track competitor strategies, and find new link-building opportunities. Whether you run a blog, e-commerce store, or agency client site, regular backlink checks should be part of your SEO workflow. Pair it with a <a href=\'/seo-audit-tool\'>full technical SEO audit</a> or <a href=\'/serp-preview-tool\'>see how your listing looks in search</a> for the complete health picture.',
             ], 'list' => [
                 'Discover who links to your website and your competitors',
                 'Verify domain health signals that affect crawlability and rankings',

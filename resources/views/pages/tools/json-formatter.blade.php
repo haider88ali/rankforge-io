@@ -25,7 +25,7 @@
         :seoContent="[
             ['heading' => 'JSON Formatter for Developers & SEOs', 'paragraphs' => [
                 'JSON (JavaScript Object Notation) is used everywhere in web development — API responses, schema markup, configuration files, and structured data. Our JSON formatter beautifies messy JSON into readable indented format, validates syntax, minifies for production, and highlights errors with line numbers.',
-                'Everything runs in your browser. Your data never leaves your device — ideal for sensitive API keys or client data.',
+                'Everything runs in your browser. Your data never leaves your device — ideal for sensitive API keys or client data. If you\'re cleaning up a page\'s assets, <a href=\'/image-compressor\'>compress your images too</a> while you\'re at it.',
             ]],
         ]"
     >

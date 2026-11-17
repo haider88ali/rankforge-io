@@ -115,13 +115,13 @@
 
     {{-- SEO content --}}
     <section class="bg-white border-t border-gray-200 py-20 px-4">
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-3xl mx-auto seo-body">
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Free SEO Tools & SEO Kit for Every Marketer</h2>
             <p class="text-sm text-gray-600 leading-relaxed mb-4">
-                SeoKitHub is a free online SEO toolkit with 10 professional-grade tools — no account, no credit card, no limits. Whether you need a backlink checker, website SEO audit, schema markup generator, XML sitemap builder, or SERP preview tool, everything runs instantly in your browser or via lightweight server-side analysis.
+                SeoKitHub is a free online SEO toolkit with 10 professional-grade tools — no account, no credit card, no limits. Whether you need a <a href="/backlink-checker">backlink checker</a>, <a href="/seo-audit-tool">run a free SEO audit</a>, a schema markup generator, an XML sitemap builder, or a SERP preview tool, everything runs instantly in your browser or via lightweight server-side analysis.
             </p>
             <p class="text-sm text-gray-600 leading-relaxed mb-4">
-                Our SEO tools help marketers, bloggers, agencies, and developers optimize websites for Google search. Use the free backlink checker to search and analyze inbound links, run a full SEO audit to find on-page issues, generate JSON-LD structured data for rich results, and create robots.txt and sitemap.xml files to improve crawlability.
+                Our SEO tools help marketers, bloggers, agencies, and developers optimize websites for Google search. Use the free backlink checker to search and analyze inbound links, run a full SEO audit to find on-page issues, <a href="/schema-markup-generator">generate JSON-LD schema markup</a> for rich results, and create robots.txt and sitemap.xml files to improve crawlability. You can also <a href="/keyword-density-checker">check your keyword density</a> to avoid over-optimization, or <a href="/json-formatter">format and validate JSON</a> before dropping it into your structured data.
             </p>
             <h3 class="text-lg font-bold text-gray-900 mb-3 mt-8">Why Choose SeoKitHub?</h3>
             <ul class="text-sm text-gray-600 leading-relaxed space-y-2 list-disc pl-5">

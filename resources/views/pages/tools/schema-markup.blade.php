@@ -25,10 +25,10 @@
         :seoContent="[
             ['heading' => 'What Is Schema Markup?', 'paragraphs' => [
                 'Schema markup (structured data) is code you add to your website to help search engines understand your content. When implemented correctly using JSON-LD format, it can earn rich results in Google — FAQ dropdowns, product ratings, article cards, and organization knowledge panels.',
-                'SeoKitHub\'s schema markup generator creates valid JSON-LD you can copy and paste into your site\'s <head> or before </body>. Supports FAQ, Product, Article, and Organization schema types.',
+                'SeoKitHub\'s schema markup generator creates valid JSON-LD you can copy and paste into your site\'s &lt;head&gt; or before &lt;/body&gt;. Supports FAQ, Product, Article, and Organization schema types.',
             ]],
             ['heading' => 'Why Use Structured Data for SEO?', 'paragraphs' => [
-                'Rich results stand out in search results and typically earn higher click-through rates. FAQ schema can expand your listing to take more SERP space. Product schema shows price and availability. Article schema helps Google classify blog content correctly.',
+                'Rich results stand out in search results and typically earn higher click-through rates. FAQ schema can expand your listing to take more SERP space. Product schema shows price and availability. Article schema helps Google classify blog content correctly. Once your schema is in place, <a href=\'/robots-txt-generator\'>generate a robots.txt file</a> and <a href=\'/xml-sitemap-generator\'>build your XML sitemap</a> so Google can find and crawl it.',
             ]],
         ]"
     >

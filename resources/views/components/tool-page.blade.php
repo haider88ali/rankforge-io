@@ -102,12 +102,12 @@
 {{-- SEO content --}}
 @if (!empty($seoContent))
     <section class="bg-white border-y border-gray-100 py-16 px-4">
-        <div class="max-w-3xl mx-auto">
+        <div class="max-w-3xl mx-auto seo-body">
             @foreach ($seoContent as $i => $block)
                 <article class="{{ $i > 0 ? 'mt-10 pt-10 border-t border-gray-100' : '' }}">
                     <h2 class="text-xl font-bold text-gray-900 mb-4">{{ $block['heading'] }}</h2>
                     @foreach ($block['paragraphs'] ?? [] as $p)
-                        <p class="text-sm text-gray-600 leading-relaxed mb-4">{{ $p }}</p>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">{!! $p !!}</p>
                     @endforeach
                     @if (!empty($block['list']))
                         <ul class="text-sm text-gray-600 leading-relaxed space-y-2 list-disc pl-5 mb-4">
