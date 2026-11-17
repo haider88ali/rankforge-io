@@ -24,7 +24,7 @@
         ]"
         :seoContent="[
             ['heading' => 'Why Preview Your SERP Snippet?', 'paragraphs' => [
-                'Your title tag and meta description are the first things searchers see in Google results. If your title is too long, Google truncates it with \"...\" — losing important keywords. If your description is weak, searchers scroll past to competitors.',
+                'Your title tag and meta description are the first things searchers see in Google results. If your title is too long, Google truncates it with an ellipsis (…) — losing important keywords. If your description is weak, searchers scroll past to competitors.',
                 'Our SERP preview tool shows exactly how your listing will appear on desktop and mobile, with pixel-width meters so you know if your title and description fit within Google\'s display limits.',
             ]],
         ]"
